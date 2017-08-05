@@ -1,0 +1,2925 @@
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Abaddon
+	//=================================================================================================================
+	"npc_extended_hero_abaddon"
+	{
+		"override_hero"				"npc_dota_hero_abaddon"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_abaddon_mist_coil"
+		"Ability2"					"extended_abaddon_aphotic_shield"
+		"Ability3"					"extended_abaddon_curse_of_avernus"
+		"Ability4"					"extended_abaddon_over_channel"
+		"Ability5"					"extended_abaddon_borrowed_time"
+
+		"Ability10"					"special_bonus_extended_abaddon_1"
+		"Ability11"					"special_bonus_extended_abaddon_2"
+		"Ability12"					"special_bonus_extended_abaddon_3"
+		"Ability13"					"special_bonus_extended_abaddon_4"
+		"Ability14"					"special_bonus_extended_abaddon_5"
+		"Ability15"					"special_bonus_extended_abaddon_6"
+		"Ability16"					"special_bonus_extended_abaddon_7"
+		"Ability17"					"special_bonus_extended_abaddon_8"
+	}
+
+	//=================================================================================================================
+	// HERO: Alchemist
+	//=================================================================================================================
+	"npc_extended_hero_alchemist"
+	{
+		"override_hero"				"npc_dota_hero_alchemist"		
+
+		"Ability1"					"extended_alchemist_acid_spray"
+		"Ability2"					"extended_alchemist_unstable_concoction"
+		"Ability3"					"extended_alchemist_goblins_greed"		
+		"Ability4"					"extended_alchemist_mammonite"	
+		"Ability5"					"extended_alchemist_chemical_rage"	
+
+		"Ability10"					"special_bonus_extended_alchemist_1"
+		"Ability11"					"special_bonus_extended_alchemist_3"
+		"Ability12"					"special_bonus_extended_alchemist_8"
+		"Ability13"					"special_bonus_extended_alchemist_5"
+		"Ability14"					"special_bonus_extended_alchemist_7"
+		"Ability15"					"special_bonus_extended_alchemist_2"
+		"Ability16"					"special_bonus_extended_alchemist_6"
+		"Ability17"					"special_bonus_extended_alchemist_4"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Ancient Apparition
+	//=================================================================================================================
+	"npc_extended_hero_ancient_apparition"
+	{
+		"override_hero"				"npc_dota_hero_ancient_apparition"
+
+		//"Ability1"					"ancient_apparition_cold_feet"		
+		//"Ability2"					"ancient_apparition_ice_vortex"		
+		//"Ability3"					"ancient_apparition_chilling_touch"	
+		//"Ability4"					"ancient_apparition_ice_blast"		
+		//"Ability5"					"ancient_apparition_ice_blast_release"
+
+		"Ability10"					"special_bonus_gold_income_15"
+		"Ability11"					"special_bonus_spell_amplify_8"
+		"Ability12"					"special_bonus_unique_ancient_apparition_3"
+		"Ability13"					"special_bonus_hp_regen_25"
+		"Ability14"					"special_bonus_hp_350"
+		"Ability15"					"special_bonus_unique_ancient_apparition_4"
+		"Ability16"					"special_bonus_unique_ancient_apparition_1"
+		"Ability17"					"special_bonus_unique_ancient_apparition_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_ancient_apparition/ancient_apparition_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Antimage
+	//=================================================================================================================
+	"npc_extended_hero_antimage"
+	{
+		"override_hero"				"npc_dota_hero_antimage"
+
+		"Ability1"					"extended_antimage_mana_break"
+		"Ability2"					"extended_antimage_blink"
+		"Ability3"					"extended_antimage_spell_shield"
+		"Ability4"					"extended_antimage_mana_void"
+
+		"Ability10"					"special_bonus_extended_antimage_1"
+		"Ability11"					"special_bonus_extended_antimage_2"
+		"Ability12"					"special_bonus_extended_antimage_3"
+		"Ability13"					"special_bonus_extended_antimage_4"
+		"Ability14"					"special_bonus_extended_antimage_5"
+		"Ability15"					"special_bonus_extended_antimage_6"
+		"Ability16"					"special_bonus_extended_antimage_7"
+		"Ability17"					"special_bonus_extended_antimage_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Arc Warden
+	//=================================================================================================================
+	"npc_extended_hero_arc_warden"
+	{
+		"override_hero"				"npc_dota_hero_arc_warden"
+
+		//"Ability1"					"extended_arc_warden_flux"
+		//"Ability2"					"extended_arc_warden_magnetic_field"
+		//"Ability3"					"extended_arc_warden_spark_wraith"
+		//"Ability4"					"extended_arc_warden_tempest_double"
+
+		"Ability10"					"special_bonus_hp_125"
+		"Ability11"					"special_bonus_attack_speed_15"
+		"Ability12"					"special_bonus_attack_damage_25"
+		"Ability13"					"special_bonus_strength_6"
+		"Ability14"					"special_bonus_cooldown_reduction_10"
+		"Ability15"					"special_bonus_attack_range_100"
+		"Ability16"					"special_bonus_lifesteal_15"
+		"Ability17"					"special_bonus_unique_arc_warden"
+
+		"ProjectileModel"			"particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Axe
+	//=================================================================================================================
+	"npc_extended_hero_axe"
+	{
+		"override_hero"				"npc_dota_hero_axe"
+
+		"ModelScale"				"1.08"
+
+		"Ability1"					"extended_axe_berserkers_call"
+		"Ability2"					"extended_axe_battle_hunger"
+		"Ability3"					"extended_axe_counter_helix"
+		"Ability4"					"extended_axe_culling_blade"
+
+		"Ability10"					"special_bonus_extended_axe_4"
+		"Ability11"					"special_bonus_extended_axe_2"
+		"Ability12"					"special_bonus_extended_axe_3"
+		"Ability13"					"special_bonus_extended_axe_1"
+		"Ability14"					"special_bonus_extended_axe_5"
+		"Ability15"					"special_bonus_extended_axe_6"
+		"Ability16"					"special_bonus_extended_axe_7"
+		"Ability17"					"special_bonus_extended_axe_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Bane
+	//=================================================================================================================
+	"npc_extended_hero_bane"
+	{
+		"override_hero"				"npc_dota_hero_bane"
+
+        "AbilityLayout"             "5"
+
+		"Ability1"					"extended_bane_enfeeble"
+		"Ability2"					"extended_bane_brain_sap"
+		"Ability3"					"extended_bane_nightmare"
+		"Ability4"					"extended_bane_nightmare_end"
+		"Ability5"					"extended_bane_fiends_grip"
+
+		"Ability10"					"special_bonus_extended_bane_1"
+		"Ability11"					"special_bonus_extended_bane_2"
+		"Ability12"					"special_bonus_extended_bane_3"
+		"Ability13"					"special_bonus_extended_bane_4"
+		"Ability14"					"special_bonus_extended_bane_5"
+		"Ability15"					"special_bonus_extended_bane_6"
+		"Ability16"					"special_bonus_extended_bane_7"
+		"Ability17"					"special_bonus_extended_bane_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_bane/bane_projectile.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Batrider
+	//=================================================================================================================
+	"npc_extended_hero_batrider"
+	{
+		"override_hero"				"npc_dota_hero_batrider"
+
+		"AttackDamageMin"			"24"
+		"AttackDamageMax"			"28"
+
+		"MovementSpeed"				"315"
+
+		//"Ability1"					"extended_batrider_sticky_napalm"
+		//"Ability2"					"extended_batrider_flamebreak"
+		//"Ability3"					"extended_batrider_firefly"
+		//"Ability4"					"extended_batrider_flaming_lasso"
+
+		"Ability10"					"special_bonus_intelligence_10"
+		"Ability11"					"special_bonus_armor_4"
+		"Ability12"					"special_bonus_spell_amplify_6"
+		"Ability13"					"special_bonus_hp_175"
+		"Ability14"					"special_bonus_cooldown_reduction_12"
+		"Ability15"					"special_bonus_movement_speed_30"
+		"Ability16"					"special_bonus_unique_batrider_1"
+		"Ability17"					"special_bonus_unique_batrider_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_batrider/batrider_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Bestmaster
+	//=================================================================================================================
+	"npc_extended_hero_beastmaster"
+	{
+		"override_hero"				"npc_dota_hero_beastmaster"
+
+		"AttackRate"				"1.55"
+
+		//"Ability1"					"extended_beastmaster_wild_axes"
+		//"Ability2"					"extended_beastmaster_call_of_the_wild"
+		//"Ability3"					"extended_beastmaster_call_of_the_wild_boar"
+		//"Ability4"					"extended_beastmaster_inner_beast"
+		//"Ability5"					"extended_beastmaster_primal_roar"
+
+		"Ability10"						"special_bonus_exp_boost_15"
+		"Ability11"						"special_bonus_movement_speed_25"
+		"Ability12"						"special_bonus_strength_8"
+		"Ability13"						"special_bonus_unique_beastmaster_2"
+		"Ability14"						"special_bonus_cooldown_reduction_15"
+		"Ability15"						"special_bonus_hp_250"
+		"Ability16"						"special_bonus_attack_damage_75"
+		"Ability17"						"special_bonus_unique_beastmaster"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Bloodseeker
+	//=================================================================================================================
+	"npc_extended_hero_bloodseeker"
+	{
+		"override_hero"		"npc_dota_hero_bloodseeker"
+
+		"Ability1"			"extended_bloodseeker_bloodrage"
+		"Ability2"			"extended_bloodseeker_blood_bath"
+		"Ability3"			"extended_bloodseeker_thirst"
+		"Ability4"			"extended_bloodseeker_rupture"
+		
+		"Ability10"			"special_bonus_extended_bloodseeker_1"
+		"Ability11"			"special_bonus_extended_bloodseeker_2"
+		"Ability12"			"special_bonus_extended_bloodseeker_3"
+		"Ability13"			"special_bonus_extended_bloodseeker_4"
+		"Ability14"			"special_bonus_extended_bloodseeker_5"
+		"Ability15"			"special_bonus_extended_bloodseeker_6"
+		"Ability16"			"special_bonus_extended_bloodseeker_7"
+		"Ability17"			"special_bonus_extended_bloodseeker_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Bounty Hunter
+	//=================================================================================================================
+	"npc_extended_hero_bounty_hunter"
+	{
+		"override_hero"				"npc_dota_hero_bounty_hunter"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_bounty_hunter_shuriken_toss"
+		"Ability2"			 		"extended_bounty_hunter_jinada"
+		"Ability3"					"extended_bounty_hunter_shadow_walk"
+		"Ability4"					"extended_bounty_hunter_headhunter"
+		"Ability5"					"extended_bounty_hunter_track"
+
+		"Ability10"					"special_bonus_extended_bounty_hunter_1"
+		"Ability11"					"special_bonus_extended_bounty_hunter_2"
+		"Ability12"					"special_bonus_extended_bounty_hunter_3"
+		"Ability13"					"special_bonus_extended_bounty_hunter_4"
+		"Ability14"					"special_bonus_extended_bounty_hunter_5"
+		"Ability15"					"special_bonus_extended_bounty_hunter_6"
+		"Ability16"					"special_bonus_extended_bounty_hunter_7"
+		"Ability17"					"special_bonus_extended_bounty_hunter_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Bristleback
+	//=================================================================================================================
+	"npc_extended_hero_bristleback"
+	{
+		"override_hero"				"npc_dota_hero_bristleback"
+
+		"ModelScale"				"0.84"
+
+		//"Ability1"					"extended_bristleback_viscous_nasal_goo"
+		//"Ability2"					"extended_bristleback_quill_spray"
+		//"Ability3"					"extended_bristleback_bristleback"
+		//"Ability4"					"extended_bristleback_warpath"
+
+		"Ability10"					"special_bonus_strength_5"
+		"Ability11"					"special_bonus_mp_regen_2"
+		"Ability12"					"special_bonus_unique_bristleback"
+		"Ability13"					"special_bonus_hp_175"
+		"Ability14"					"special_bonus_attack_speed_25"
+		"Ability15"					"special_bonus_respawn_reduction_35"
+		"Ability16"					"special_bonus_hp_regen_20"
+		"Ability17"					"special_bonus_unique_bristleback_2"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Broodmother
+	//=================================================================================================================
+	"npc_extended_hero_broodmother"
+	{
+		"override_hero"				"npc_dota_hero_broodmother"
+
+		"ModelScale"				"1.0"
+
+		//"Ability1"					"extended_broodmother_spawn_spiderlings"
+		//"Ability2"					"extended_broodmother_spin_web"
+		//"Ability3"					"extended_broodmother_incapacitating_bite"
+		//"Ability4"					"extended_broodmother_insatiable_hunger"
+
+		"Ability10"					"special_bonus_unique_broodmother_3"
+		"Ability11"					"special_bonus_exp_boost_15"
+		"Ability12"					"special_bonus_cooldown_reduction_15"
+		"Ability13"					"special_bonus_hp_200"
+		"Ability14"					"special_bonus_unique_broodmother_4"
+		"Ability15"					"special_bonus_attack_speed_30"
+		"Ability16"					"special_bonus_unique_broodmother_1"
+		"Ability17"					"special_bonus_unique_broodmother_2"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Centaur
+	//=================================================================================================================
+	"npc_extended_hero_centaur"
+	{
+		"override_hero"				"npc_dota_hero_centaur"
+ 
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_centaur_hoof_stomp"
+		"Ability2"					"extended_centaur_double_edge"
+		"Ability3"					"extended_centaur_return"
+		"Ability4"					"extended_centaur_thick_hide"
+		"Ability5"					"extended_centaur_stampede"
+
+		"Ability10"					"special_bonus_extended_centaur_1"
+		"Ability11"					"special_bonus_extended_centaur_2"
+		"Ability12"					"special_bonus_extended_centaur_3"
+		"Ability13"					"special_bonus_extended_centaur_4"
+		"Ability14"					"special_bonus_extended_centaur_5"
+		"Ability15"					"special_bonus_extended_centaur_6"
+		"Ability16"					"special_bonus_extended_centaur_7"
+		"Ability17"					"special_bonus_extended_centaur_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	//	HERO: Chaos Knight
+	//=================================================================================================================
+	"npc_extended_hero_chaos_knight"
+	{
+		"override_hero"				"npc_dota_hero_chaos_knight"
+
+		"AttackDamageMin"			"29"
+		"AttackDamageMax"			"89"
+
+		"AttackRange"				"200"
+
+		//"Ability1"					"extended_chaos_knight_chaos_bolt"
+		//"Ability2"					"extended_chaos_knight_reality_rift"
+		//"Ability3"					"extended_chaos_knight_chaos_strike"
+		//"Ability4"					"extended_chaos_knight_phantasm"
+
+		"Ability10"					"special_bonus_attack_speed_15"
+		"Ability11"					"special_bonus_intelligence_8"
+		"Ability12"					"special_bonus_movement_speed_20"
+		"Ability13"					"special_bonus_strength_6"
+		"Ability14"					"special_bonus_gold_income_40"
+		"Ability15"					"special_bonus_all_stats_8"
+		"Ability16"					"special_bonus_cooldown_reduction_20"
+		"Ability17"					"special_bonus_unique_chaos_knight"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	//	HERO: Chen
+	//=================================================================================================================
+	"npc_extended_hero_chen"
+	{
+		"override_hero"				"npc_dota_hero_chen"
+
+		//"Ability1"					"extended_chen_penitence"
+		//"Ability2"					"extended_chen_test_of_faith"
+		//"Ability3"					"extended_chen_test_of_faith_teleport"
+		//"Ability4"					"extended_chen_holy_persuasion"
+		//"Ability5"					"extended_chen_hand_of_god"
+
+		"Ability10"					"special_bonus_movement_speed_30"
+		"Ability11"					"special_bonus_cast_range_125"
+		"Ability12"					"special_bonus_unique_chen_3"
+		"Ability13"					"special_bonus_hp_200"
+		"Ability14"					"special_bonus_gold_income_25"
+		"Ability15"					"special_bonus_unique_chen_4"
+		"Ability16"					"special_bonus_unique_chen_1"
+		"Ability17"					"special_bonus_unique_chen_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_chen/chen_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	//	HERO: Clinkz
+	//=================================================================================================================
+	"npc_extended_hero_clinkz"
+	{
+		"override_hero"				"npc_dota_hero_clinkz"		
+
+		"Ability1"					"extended_clinkz_strafe"
+		"Ability2"					"extended_clinkz_searing_arrows"
+		"Ability3"					"extended_clinkz_skeleton_walk"
+		"Ability4"					"extended_clinkz_death_pact"
+
+		"Ability10"					"special_bonus_extended_clinkz_1"
+		"Ability11"					"special_bonus_extended_clinkz_2"
+		"Ability12"					"special_bonus_extended_clinkz_3"
+		"Ability13"					"special_bonus_extended_clinkz_4"
+		"Ability14"					"special_bonus_extended_clinkz_5"
+		"Ability15"					"special_bonus_extended_clinkz_6"
+		"Ability16"					"special_bonus_extended_clinkz_7"
+		"Ability17"					"special_bonus_extended_clinkz_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_clinkz/clinkz_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Clockwerk
+	//=================================================================================================================
+	"npc_extended_hero_rattletrap"
+	{
+		"override_hero"				"npc_dota_hero_rattletrap"
+
+		//"Ability1"					"extended_rattletrap_battery_assault"
+		//"Ability2"					"extended_rattletrap_power_cogs"
+		//"Ability3"					"extended_rattletrap_rocket_flare"
+		//"Ability4"					"extended_rattletrap_hookshot"
+
+		"Ability10"					"special_bonus_armor_4"
+		"Ability11"					"special_bonus_mp_175"
+		"Ability12"					"special_bonus_unique_clockwerk_2"
+		"Ability13"					"special_bonus_movement_speed_20"
+		"Ability14"					"special_bonus_unique_clockwerk_3"
+		"Ability15"					"special_bonus_magic_resistance_12"
+		"Ability16"					"special_bonus_hp_275"
+		"Ability17"					"special_bonus_unique_clockwerk"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Crystal Maiden
+	//=================================================================================================================
+	"npc_extended_hero_crystal_maiden"
+	{
+		"override_hero"				"npc_dota_hero_crystal_maiden"
+		
+		"AbilityLayout"				"5"
+		
+		"Ability1"					"extended_crystal_maiden_crystal_nova"
+		"Ability2"					"extended_crystal_maiden_frostbite"
+		"Ability3"					"extended_crystal_maiden_brilliance_aura"
+		"Ability4"					"extended_crystal_maiden_arcane_dynamo"
+		"Ability5"					"extended_crystal_maiden_freezing_field"
+
+		"Ability10"					"special_bonus_extended_crystal_maiden_1"
+		"Ability11"					"special_bonus_extended_crystal_maiden_2"
+		"Ability12"					"special_bonus_extended_crystal_maiden_3"
+		"Ability13"					"special_bonus_extended_crystal_maiden_4"
+		"Ability14"					"special_bonus_extended_crystal_maiden_5"
+		"Ability15"					"special_bonus_extended_crystal_maiden_6"
+		"Ability16"					"special_bonus_extended_crystal_maiden_7"
+		"Ability17"					"special_bonus_extended_crystal_maiden_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_crystalmaiden/maiden_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Dark Seer
+	//=================================================================================================================
+	"npc_extended_hero_dark_seer"
+	{
+		"override_hero"				"npc_dota_hero_dark_seer"
+
+		//"Ability1"					"extended_dark_seer_vacuum"
+		//"Ability2"					"extended_dark_seer_ion_shell"
+		//"Ability3"					"extended_dark_seer_surge"
+		//"Ability4"					"extended_dark_seer_wall_of_replica"
+
+		"Ability10"					"special_bonus_evasion_12"
+		"Ability11"					"special_bonus_cast_range_75"
+		"Ability12"					"special_bonus_attack_damage_65"
+		"Ability13"					"special_bonus_hp_regen_8"
+		"Ability14"					"special_bonus_strength_7"
+		"Ability15"					"special_bonus_unique_dark_seer_2"
+		"Ability16"					"special_bonus_cooldown_reduction_12"
+		"Ability17"					"special_bonus_unique_dark_seer"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Dazzle
+	//=================================================================================================================
+	"npc_extended_hero_dazzle"
+	{
+		"override_hero"				"npc_dota_hero_dazzle"
+
+		"Ability1"					"extended_dazzle_poison_touch"
+		"Ability2"					"extended_dazzle_shallow_grave"
+		"Ability3"					"extended_dazzle_shadow_wave"
+		"Ability4"					"extended_dazzle_weave"
+
+		"Ability10"					"special_bonus_extended_dazzle_3"
+		"Ability11"					"special_bonus_extended_dazzle_2"
+		"Ability12"					"special_bonus_extended_dazzle_1"
+		"Ability13"					"special_bonus_extended_dazzle_8"
+		"Ability14"					"special_bonus_extended_dazzle_7"
+		"Ability15"					"special_bonus_extended_dazzle_4"
+		"Ability16"					"special_bonus_extended_dazzle_5"
+		"Ability17"					"special_bonus_extended_dazzle_6"
+
+		"ProjectileModel"			"particles/units/heroes/hero_dazzle/dazzle_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Death Prophet
+	//=================================================================================================================
+	"npc_extended_hero_death_prophet"
+	{
+		"override_hero"				"npc_dota_hero_death_prophet"
+
+		"ArmorPhysical"				"2"
+		
+		//"Ability1"					"extended_death_prophet_carrion_swarm"
+		//"Ability2"					"extended_death_prophet_silence"
+		//"Ability3"					"extended_death_prophet_spirit_siphon"
+		//"Ability4"					"extended_death_prophet_exorcism"
+
+		"Ability10"					"special_bonus_spell_amplify_4"
+		"Ability11"					"special_bonus_strength_4"
+		"Ability12"					"special_bonus_magic_resistance_10"
+		"Ability13"					"special_bonus_cast_range_75"
+		"Ability14"					"special_bonus_cooldown_reduction_12"
+		"Ability15"					"special_bonus_movement_speed_25"
+		"Ability16"					"special_bonus_hp_275"
+		"Ability17"					"special_bonus_unique_death_prophet"
+
+		"ProjectileModel"			"particles/units/heroes/hero_death_prophet/death_prophet_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Disruptor
+	//=================================================================================================================
+	"npc_extended_hero_disruptor"
+	{
+		"override_hero"				"npc_dota_hero_disruptor"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_disruptor_thunder_strike"
+		"Ability2"					"extended_disruptor_glimpse"
+		"Ability3"					"extended_disruptor_kinetic_field"
+		"Ability4"					"extended_disruptor_stormbearer"
+		"Ability5"					"extended_disruptor_static_storm"
+
+		"Ability10"					"special_bonus_extended_disruptor_1"
+		"Ability11"					"special_bonus_extended_disruptor_2"
+		"Ability12"					"special_bonus_extended_disruptor_3"
+		"Ability13"					"special_bonus_extended_disruptor_4"
+		"Ability14"					"special_bonus_extended_disruptor_5"
+		"Ability15"					"special_bonus_extended_disruptor_6"
+		"Ability16"					"special_bonus_extended_disruptor_7"
+		"Ability17"					"special_bonus_extended_disruptor_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_disruptor/disruptor_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Doombringer
+	//=================================================================================================================
+	"npc_extended_hero_doom_bringer"
+	{
+		"override_hero"				"npc_dota_hero_doom_bringer"
+
+		"ModelScale" 				"1.05"
+
+		"AttackRange"				"266"
+
+		//"Ability1"					"extended_doom_bringer_devour"
+		//"Ability2"					"extended_doom_bringer_scorched_earth"
+		//"Ability3"					"extended_doom_bringer_lvl_death"
+		//"Ability4"					"extended_doom_bringer_empty1"
+		//"Ability5"					"extended_doom_bringer_empty2"
+		//"Ability6"					"extended_doom_bringer_doom"
+
+		"Ability10"					"special_bonus_hp_150"
+		"Ability11"					"special_bonus_unique_doom_3"
+		"Ability12"					"special_bonus_movement_speed_25"
+		"Ability13"					"special_bonus_unique_doom_4"
+		"Ability14"					"special_bonus_unique_doom_2"
+		"Ability15"					"special_bonus_unique_doom_5"
+		"Ability16"					"special_bonus_hp_regen_15"
+		"Ability17"					"special_bonus_unique_doom_1"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Dragon Knight
+	//=================================================================================================================
+	"npc_extended_hero_dragon_knight"
+	{
+		"override_hero"				"npc_dota_hero_dragon_knight"
+
+		//"Ability1"				"extended_dragon_knight_breathe_fire"
+		//"Ability2"				"extended_dragon_knight_dragon_tail"
+		//"Ability3"				"extended_dragon_knight_dragon_blood"
+		//"Ability4"				"extended_dragon_knight_elder_dragon_form"
+
+		"Ability10"					"special_bonus_exp_boost_15"
+		"Ability11"					"special_bonus_gold_income_20"
+		"Ability12"					"special_bonus_attack_speed_20"
+		"Ability13"					"special_bonus_strength_6"
+		"Ability14"					"special_bonus_attack_damage_40"
+		"Ability15"					"special_bonus_hp_250"
+		"Ability16"					"special_bonus_movement_speed_35"
+		"Ability17"					"special_bonus_unique_dragon_knight"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Drow Ranger
+	//=================================================================================================================
+	"npc_extended_hero_drow_ranger"
+	{
+		"override_hero"				"npc_dota_hero_drow_ranger"
+		"AttackAcquisitionRange"	"900"
+
+		"AbilityLayout"				"5"
+		
+		"Ability1"					"extended_drow_ranger_frost_arrows"
+		"Ability2"					"extended_drow_ranger_gust"
+		"Ability3"					"extended_drow_ranger_trueshot"
+		"Ability4"					"extended_drow_ranger_deadeye"
+		"Ability5"					"extended_drow_ranger_marksmanship"
+
+		"Ability10"					"special_bonus_extended_drow_ranger_1"
+		"Ability11"					"special_bonus_extended_drow_ranger_2"
+		"Ability12"					"special_bonus_extended_drow_ranger_3"
+		"Ability13"					"special_bonus_extended_drow_ranger_4"
+		"Ability14"					"special_bonus_extended_drow_ranger_5"
+		"Ability15"					"special_bonus_extended_drow_ranger_6"
+		"Ability16"					"special_bonus_extended_drow_ranger_7"
+		"Ability17"					"special_bonus_extended_drow_ranger_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_drow/drow_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Earthshaker
+	//=================================================================================================================
+	"npc_extended_hero_earthshaker"
+	{
+		"override_hero"				"npc_dota_hero_earthshaker"
+
+		"ModelScale"				".87"
+
+		//"Ability1"				"extended_earthshaker_fissure"
+		//"Ability2"				"extended_earthshaker_enchant_totem"
+		//"Ability3"				"extended_earthshaker_aftershock"
+		//"Ability4"				"extended_earthshaker_echo_slam"
+
+		"Ability10"					"special_bonus_movement_speed_15"
+		"Ability11"					"special_bonus_mp_150"
+		"Ability12"					"special_bonus_strength_6"
+		"Ability13"					"special_bonus_attack_damage_40"
+		"Ability14"					"special_bonus_unique_earthshaker_3"
+		"Ability15"					"special_bonus_unique_earthshaker_2"
+		"Ability16"					"special_bonus_hp_350"
+		"Ability17"					"special_bonus_unique_earthshaker"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Earth Spirit
+	//=================================================================================================================
+	"npc_extended_hero_earth_spirit"
+	{
+		"override_hero"				"npc_dota_hero_earth_spirit"
+
+		"AttackRange"				"225"
+
+		//"Ability1"					"extended_earth_spirit_boulder_smash"
+		//"Ability2"					"extended_earth_spirit_rolling_boulder"
+		//"Ability3"					"extended_earth_spirit_geomagnetic_grip"
+		//"Ability4"					"extended_earth_spirit_stone_caller"
+		//"Ability5"					"extended_earth_spirit_petrify"
+		//"Ability6"					"extended_earth_spirit_magnetize"
+
+		"Ability10"					"special_bonus_intelligence_10"
+		"Ability11"					"special_bonus_armor_4"
+		"Ability12"					"special_bonus_magic_resistance_12"
+		"Ability13"					"special_bonus_gold_income_25"
+		"Ability14"					"special_bonus_spell_amplify_6"
+		"Ability15"					"special_bonus_hp_200"
+		"Ability16"					"special_bonus_unique_earth_spirit_2"
+		"Ability17"					"special_bonus_unique_earth_spirit"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Elder Titan
+	//=================================================================================================================
+	"npc_extended_hero_elder_titan"
+	{
+		"override_hero"				"npc_dota_hero_elder_titan"
+
+		"AttackRange"				"200"
+
+		//"Ability1"					"extended_elder_titan_echo_stomp"
+		//"Ability2"					"extended_elder_titan_ancestral_spirit"
+		//"Ability3"					"extended_elder_titan_natural_order"
+		//"Ability4"					"extended_elder_titan_return_spirit"
+		//"Ability5"					"extended_elder_titan_earth_splitter"
+
+		"Ability10"					"special_bonus_respawn_reduction_25"
+		"Ability11"					"special_bonus_strength_5"
+		"Ability12"					"special_bonus_hp_175"
+		"Ability13"					"special_bonus_unique_elder_titan_2"
+		"Ability14"					"special_bonus_magic_resistance_15"
+		"Ability15"					"special_bonus_attack_speed_30"
+		"Ability16"					"special_bonus_armor_8"
+		"Ability17"					"special_bonus_unique_elder_titan"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Ember Spirit
+	//=================================================================================================================
+	"npc_extended_hero_ember_spirit"
+	{
+		"override_hero"				"npc_dota_hero_ember_spirit"
+
+		"AttackRate"				"1.6"
+
+		//"Ability1"					"extended_ember_spirit_searing_chains"
+		//"Ability2"					"extended_ember_spirit_sleight_of_fist"
+		//"Ability3"					"extended_ember_spirit_flame_guard"
+		//"Ability4"					"extended_ember_spirit_activate_fire_remnant"
+		//"Ability5"					"extended_ember_spirit_fire_remnant"
+
+		"Ability10"					"special_bonus_spell_amplify_5"
+		"Ability11"					"special_bonus_attack_damage_25"
+		"Ability12"					"special_bonus_movement_speed_20"
+		"Ability13"					"special_bonus_all_stats_7"
+		"Ability14"					"special_bonus_cooldown_reduction_12"
+		"Ability15"					"special_bonus_armor_6"
+		"Ability16"					"special_bonus_unique_ember_spirit_1"
+		"Ability17"					"special_bonus_unique_ember_spirit_2"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	//	HERO: Enchantress
+	//=================================================================================================================
+	"npc_extended_hero_enchantress"
+	{
+		"override_hero"				"npc_dota_hero_enchantress"
+
+		"AttackRange"				"600"
+
+		"MovementSpeed"				"335"
+
+		//"Ability1"					"extended_enchantress_untouchable"
+		//"Ability2"					"extended_enchantress_enchant"
+		//"Ability3"					"extended_enchantress_natures_attendants"
+		//"Ability4"					"extended_enchantress_impetus"
+
+		"Ability10"					"special_bonus_all_stats_5"
+		"Ability11"					"special_bonus_movement_speed_15"
+		"Ability12"					"special_bonus_unique_enchantress_2"
+		"Ability13"					"special_bonus_attack_damage_35"
+		"Ability14"					"special_bonus_magic_resistance_15"
+		"Ability15"					"special_bonus_unique_enchantress_3"
+		"Ability16"					"special_bonus_unique_enchantress_4"
+		"Ability17"					"special_bonus_unique_enchantress_1"
+
+		"ProjectileModel"			"particles/units/heroes/hero_enchantress/enchantress_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Enigma
+	//=================================================================================================================
+	"npc_extended_hero_enigma"
+	{
+		"override_hero"				"npc_dota_hero_enigma"		
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_enigma_malefice"
+		"Ability2"					"extended_enigma_demonic_conversion"
+		"Ability3"					"extended_enigma_midnight_pulse"
+		"Ability4"					"extended_enigma_gravity_well"
+		"Ability5"					"extended_enigma_black_hole"
+
+		"Ability10"					"special_bonus_extended_enigma_1"
+		"Ability11"					"special_bonus_extended_enigma_2"
+		"Ability12"					"special_bonus_extended_enigma_3"
+		"Ability13"					"special_bonus_extended_enigma_4"
+		"Ability14"					"special_bonus_extended_enigma_5"
+		"Ability15"					"special_bonus_extended_enigma_6"
+		"Ability16"					"special_bonus_extended_enigma_7"
+		"Ability17"					"special_bonus_extended_enigma_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_enigma/enigma_base_attack.vpcf"					
+	}
+
+	//=================================================================================================================
+	// HERO: Faceless Void
+	//=================================================================================================================
+	"npc_extended_hero_faceless_void"
+	{
+		"override_hero"				"npc_dota_hero_faceless_void"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_faceless_void_time_walk"
+		"Ability2"					"extended_faceless_void_time_dilation"
+		"Ability3"					"extended_faceless_void_time_lock"
+		"Ability4"					"extended_faceless_void_timelord"
+		"Ability5"					"extended_faceless_void_chronosphere"
+		
+		"Ability10"					"special_bonus_extended_faceless_void_1"
+		"Ability11"					"special_bonus_extended_faceless_void_6"
+		"Ability12"					"special_bonus_extended_faceless_void_3"
+		"Ability13"					"special_bonus_extended_faceless_void_2"
+		"Ability14"					"special_bonus_extended_faceless_void_5"
+		"Ability15"					"special_bonus_extended_faceless_void_7"
+		"Ability16"					"special_bonus_extended_faceless_void_4"
+		"Ability17"					"special_bonus_extended_faceless_void_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Gyrocopter
+	//=================================================================================================================
+	"npc_extended_hero_gyrocopter"
+	{
+		"override_hero"				"npc_dota_hero_gyrocopter"
+
+		"Ability1"					"gyrocopter_rocket_barrage"
+		"Ability2"					"gyrocopter_homing_missile"
+		"Ability3"					"gyrocopter_flak_cannon"
+		"Ability4"					"gyrocopter_call_down"
+		"Ability6"					""
+
+		"Ability10"					"special_bonus_spell_amplify_5"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_magic_resistance_12"
+		"Ability13"					"special_bonus_attack_damage_35"
+		"Ability14"					"special_bonus_movement_speed_25"
+		"Ability15"					"special_bonus_cooldown_reduction_15"
+		"Ability16"					"special_bonus_unique_gyrocopter_1"
+		"Ability17"					"special_bonus_unique_gyrocopter_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_gyrocopter/gyro_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Huskar
+	//=================================================================================================================
+	"npc_extended_hero_huskar"
+	{
+		"override_hero"				"npc_dota_hero_huskar"
+
+		//"Ability1"					"extended_huskar_inner_vitality"
+		//"Ability2"					"extended_huskar_burning_spear"
+		//"Ability3"					"extended_huskar_berserkers_blood"
+		//"Ability4"					"extended_huskar_life_break"
+
+		"Ability10"					"special_bonus_lifesteal_10"
+		"Ability11"					"special_bonus_unique_huskar_2"
+		"Ability12"					"special_bonus_lifesteal_15"
+		"Ability13"					"special_bonus_attack_damage_35"
+		"Ability14"					"special_bonus_lifesteal_20"
+		"Ability15"					"special_bonus_attack_speed_30"
+		"Ability16"					"special_bonus_lifesteal_25"
+		"Ability17"					"special_bonus_unique_huskar"
+
+		"ProjectileModel"			"particles/units/heroes/hero_huskar/huskar_base_attack.vpcf"					
+	}
+
+	//=================================================================================================================
+	// HERO: Invoker
+	//=================================================================================================================
+	"npc_extended_hero_invoker"
+	{
+		"override_hero"				"npc_dota_hero_invoker"
+		
+		//"Ability1"				"extended_invoker_quas"
+		//"Ability2"				"extended_invoker_wex"
+		//"Ability3"				"extended_invoker_exort"
+		//"Ability4"				"extended_invoker_empty1"
+		//"Ability5"				"extended_invoker_empty2"
+		//"Ability6"				"extended_invoker_invoke"
+		//"Ability7"				"extended_invoker_cold_snap"
+		//"Ability8"				"extended_invoker_ghost_walk"
+		//"Ability9"				"extended_invoker_tornado"
+		//"Ability10"				"extended_invoker_emp"
+		//"Ability11"				"extended_invoker_alacrity"
+		//"Ability12"				"extended_invoker_chaos_meteor"
+		//"Ability13"				"extended_invoker_sun_strike"
+		//"Ability14"				"extended_invoker_forge_spirit"
+		//"Ability15"				"extended_invoker_ice_wall"
+		//"Ability16"				"extended_invoker_deafening_blast"
+
+		"Ability17"					"special_bonus_unique_invoker_1"
+		"Ability18"					"special_bonus_exp_boost_20"
+		"Ability19"					"special_bonus_attack_damage_30"
+		"Ability20"					"special_bonus_hp_175"
+		"Ability21"					"special_bonus_unique_invoker_2"
+		"Ability22"					"special_bonus_attack_speed_30"
+		"Ability23"					"special_bonus_unique_invoker_3"
+		"Ability24"					"special_bonus_cooldown_reduction_12"
+
+		"ProjectileModel"			"particles/units/heroes/hero_invoker/invoker_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Jakiro
+	//=================================================================================================================
+	"npc_extended_hero_jakiro"
+	{
+		"override_hero"				"npc_dota_hero_jakiro"
+
+		"AttackRange"				"500"
+
+		"Ability1"					"extended_jakiro_fire_breath"
+		"Ability2"					"extended_jakiro_ice_breath"
+		"Ability3"					"extended_jakiro_ice_path"
+		"Ability4"					"extended_jakiro_liquid_fire"
+		"Ability5"					"extended_jakiro_macropyre"
+
+		"Ability10"					"special_bonus_extended_jakiro_1"
+		"Ability11"					"special_bonus_extended_jakiro_2"
+		"Ability12"					"special_bonus_extended_jakiro_3"
+		"Ability13"					"special_bonus_extended_jakiro_4"
+		"Ability14"					"special_bonus_extended_jakiro_5"
+		"Ability15"					"special_bonus_extended_jakiro_6"
+		"Ability16"					"special_bonus_extended_jakiro_7"
+		"Ability17"					"special_bonus_extended_jakiro_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_jakiro/jakiro_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Juggernaut
+	//=================================================================================================================
+	"npc_extended_hero_juggernaut"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"
+
+		"Ability1"					"extended_juggernaut_blade_fury"
+		"Ability2"					"extended_juggernaut_healing_ward"
+		"Ability3"					"extended_juggernaut_blade_dance"
+		"Ability4"					"extended_juggernaut_omni_slash"
+
+		"Ability10"					"special_bonus_extended_juggernaut_1"
+		"Ability11"					"special_bonus_extended_juggernaut_2"
+		"Ability12"					"special_bonus_extended_juggernaut_3"
+		"Ability13"					"special_bonus_extended_juggernaut_4"
+		"Ability14"					"special_bonus_extended_juggernaut_5"
+		"Ability15"					"special_bonus_extended_juggernaut_6"
+		"Ability16"					"special_bonus_extended_juggernaut_7"
+		"Ability17"					"special_bonus_extended_juggernaut_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Keeper of the Light
+	//=================================================================================================================
+	"npc_extended_hero_keeper_of_the_light"
+	{
+		"override_hero"				"npc_dota_hero_keeper_of_the_light"
+
+		"MovementSpeed"				"370"
+
+		"AttackDamageMin"			"28"
+
+		//"Ability1"					"extended_keeper_of_the_light_illuminate"
+		//"Ability2"					"extended_keeper_of_the_light_mana_leak"
+		//"Ability3"					"extended_keeper_of_the_light_chakra_magic"
+		//"Ability4"					"extended_keeper_of_the_light_recall"
+		//"Ability5"					"extended_keeper_of_the_light_blinding_light"
+		//"Ability6"					"extended_keeper_of_the_light_spirit_form"
+		//"Ability7"					"extended_keeper_of_the_light_illuminate_end"
+		//"Ability8"					"extended_keeper_of_the_light_spirit_form_illuminate"
+		//"Ability9"					"extended_keeper_of_the_light_spirit_form_illuminate_end"
+
+		"Ability10"					"special_bonus_exp_boost_20"
+		"Ability11"					"special_bonus_movement_speed_25"
+		"Ability12"					"special_bonus_strength_6"
+		"Ability13"					"special_bonus_unique_keeper_of_the_light_2"
+		"Ability14"					"special_bonus_magic_resistance_10"
+		"Ability15"					"special_bonus_armor_9"
+		"Ability16"					"special_bonus_cast_range_150"
+		"Ability17"					"special_bonus_unique_keeper_of_the_light"
+
+		"ProjectileModel"			"particles/units/heroes/hero_keeper_of_the_light/keeper_of_the_light_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Kunkka
+	//=================================================================================================================
+	"npc_extended_hero_kunkka"
+	{
+		"override_hero"				"npc_dota_hero_kunkka"
+
+		"MovementTurnRate"			"5.0"
+
+		"AbilityLayout"				"6"
+		
+		"Ability1"					"extended_kunkka_torrent"		
+		"Ability2"					"extended_kunkka_tidebringer"	
+		"Ability3"					"extended_kunkka_x_marks_the_spot"
+		"Ability4"					"extended_kunkka_return"
+		"Ability5"					"extended_kunkka_ebb_and_flow"
+		"Ability6"					"extended_kunkka_ghostship"
+
+		"Ability10"					"special_bonus_extended_kunkka_1"
+		"Ability11"					"special_bonus_extended_kunkka_2"
+		"Ability12"					"special_bonus_extended_kunkka_3"
+		"Ability13"					"special_bonus_extended_kunkka_4"
+		"Ability14"					"special_bonus_extended_kunkka_5"
+		"Ability15"					"special_bonus_extended_kunkka_6"
+		"Ability16"					"special_bonus_extended_kunkka_7"
+		"Ability17"					"special_bonus_extended_kunkka_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Legion Commander
+	//=================================================================================================================
+	"npc_extended_hero_legion_commander"
+	{
+		"override_hero"				"npc_dota_hero_legion_commander"
+
+		"AttackRange"				"225"
+		
+		//"Ability1"				"extended_legion_commander_overwhelming_odds"
+		//"Ability2"				"extended_legion_commander_press_the_attack"
+		//"Ability3"				"extended_legion_commander_moment_of_courage"
+		//"Ability4"				"extended_legion_commander_duel"
+
+		"Ability10"					"special_bonus_strength_5"
+		"Ability11"					"special_bonus_exp_boost_15"
+		"Ability12"					"special_bonus_attack_damage_30"
+		"Ability13"					"special_bonus_movement_speed_20"
+		"Ability14"					"special_bonus_armor_5"
+		"Ability15"					"special_bonus_unique_legion_commander_3"
+		"Ability16"					"special_bonus_unique_legion_commander"
+		"Ability17"					"special_bonus_unique_legion_commander_2"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Leshrac
+	//=================================================================================================================
+	"npc_extended_hero_leshrac"
+	{
+		"override_hero"				"npc_dota_hero_leshrac"
+
+		"AttackDamageMin"			"21"
+		"AttackDamageMax"			"25"
+
+		//"Ability1"					"extended_leshrac_split_earth"
+		//"Ability2"					"extended_leshrac_diabolic_edict"
+		//"Ability3"					"extended_leshrac_lightning_storm"
+		//"Ability4"					"extended_leshrac_pulse_nova"
+
+		"Ability10"					"special_bonus_hp_150"
+		"Ability11"					"special_bonus_movement_speed_15"
+		"Ability12"					"special_bonus_mp_300"
+		"Ability13"					"special_bonus_magic_resistance_12"
+		"Ability14"					"special_bonus_spell_amplify_6"
+		"Ability15"					"special_bonus_strength_7"
+		"Ability16"					"special_bonus_unique_leshrac_1"
+		"Ability17"					"special_bonus_unique_leshrac_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Lich
+	//=================================================================================================================
+	"npc_extended_hero_lich"
+	{
+		"override_hero"				"npc_dota_hero_lich"
+
+		"AbilityLayout"				"5"
+		
+		"Ability1"					"extended_lich_frost_nova"
+		"Ability2"					"extended_lich_frost_armor"
+		"Ability3"					"extended_lich_dark_ritual"
+		"Ability4"					"extended_lich_cold_front"
+		"Ability5"					"extended_lich_chain_frost"
+		
+		"Ability10"					"special_bonus_extended_lich_1"
+		"Ability11"					"special_bonus_extended_lich_2"
+		"Ability12"					"special_bonus_extended_lich_3"
+		"Ability13"					"special_bonus_extended_lich_4"
+		"Ability14"					"special_bonus_extended_lich_5"
+		"Ability15"					"special_bonus_extended_lich_6"
+		"Ability16"					"special_bonus_extended_lich_7"
+		"Ability17"					"special_bonus_extended_lich_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_lich/lich_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Lifestealer
+	//=================================================================================================================
+	"npc_extended_hero_life_stealer"
+	{
+		"override_hero"				"npc_dota_hero_life_stealer"
+
+		"AttributeAgilityGain"		"3.0"
+
+		//"Ability1"				"extended_life_stealer_rage"
+		//"Ability2"				"extended_life_stealer_feast"
+		//"Ability3"				"extended_life_stealer_open_wounds"
+		//"Ability4"				"extended_life_stealer_assimilate"
+		//"Ability5"				"extended_life_stealer_assimilate_eject"
+		//"Ability6"				"extended_life_stealer_infest"
+		//"Ability7"				"extended_life_stealer_control"
+		//"Ability8"				"extended_life_stealer_consume"
+
+		"Ability10"					"special_bonus_all_stats_5"
+		"Ability11"					"special_bonus_attack_speed_15"
+		"Ability12"					"special_bonus_hp_175"
+		"Ability13"					"special_bonus_attack_damage_30"
+		"Ability14"					"special_bonus_evasion_15"
+		"Ability15"					"special_bonus_movement_speed_25"
+		"Ability16"					"special_bonus_armor_7"
+		"Ability17"					"special_bonus_unique_lifestealer"
+	}
+
+	//=================================================================================================================
+	// HERO: Lina
+	//=================================================================================================================
+	"npc_extended_hero_lina"
+	{
+		"override_hero"				"npc_dota_hero_lina"
+		
+		"Ability1"					"extended_lina_dragon_slave"
+		"Ability2"					"extended_lina_light_strike_array"
+		"Ability3"					"extended_lina_fiery_soul"
+		"Ability4"					"extended_lina_laguna_blade"
+
+		"Ability10"					"special_bonus_extended_lina_1"
+		"Ability11"					"special_bonus_extended_lina_2"
+		"Ability12"					"special_bonus_extended_lina_3"
+		"Ability13"					"special_bonus_extended_lina_4"
+		"Ability14"					"special_bonus_extended_lina_5"
+		"Ability15"					"special_bonus_extended_lina_6"
+		"Ability16"					"special_bonus_extended_lina_7"
+		"Ability17"					"special_bonus_extended_lina_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_lina/lina_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Lion
+	//=================================================================================================================
+	"npc_extended_hero_lion"
+	{
+		"override_hero"				"npc_dota_hero_lion"
+
+		"Ability1"					"extended_lion_earth_spike"				
+		"Ability2"					"extended_lion_hex"				
+		"Ability3"					"extended_lion_mana_drain"			
+		"Ability4"					"extended_lion_finger_of_death"
+		
+		"Ability10"					"special_bonus_extended_lion_1"
+		"Ability11"					"special_bonus_extended_lion_2"
+		"Ability12"					"special_bonus_extended_lion_3"
+		"Ability13"					"special_bonus_extended_lion_4"
+		"Ability14"					"special_bonus_extended_lion_5"
+		"Ability15"					"special_bonus_extended_lion_6"
+		"Ability16"					"special_bonus_extended_lion_7"
+		"Ability17"					"special_bonus_extended_lion_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_lion/lion_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Luna
+	//=================================================================================================================
+	"npc_extended_hero_luna"
+	{
+		"override_hero"				"npc_dota_hero_luna"
+
+		"AttributeAgilityGain"		"3.5"
+
+		//"Ability1"					"extended_luna_lucent_beam"
+		//"Ability2"					"extended_luna_moon_glaive"
+		//"Ability3"					"extended_luna_lunar_blessing"
+		//"Ability4"					"extended_luna_eclipse"
+
+		"Ability10"					"special_bonus_hp_150"
+		"Ability11"					"special_bonus_unique_luna_1"
+		"Ability12"					"special_bonus_attack_damage_30"
+		"Ability13"					"special_bonus_armor_4"
+		"Ability14"					"special_bonus_attack_speed_25"
+		"Ability15"					"special_bonus_magic_resistance_15"
+		"Ability16"					"special_bonus_all_stats_10"
+		"Ability17"					"special_bonus_unique_luna_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_luna/luna_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Lycan
+	//=================================================================================================================
+	"npc_extended_hero_lycan"
+	{
+		"override_hero"				"npc_dota_hero_lycan"		
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_lycan_summon_wolves"
+		"Ability2"					"extended_lycan_howl"
+		"Ability3"					"extended_lycan_feral_impulse"
+		"Ability5"					"extended_lycan_shapeshift"
+		"Ability4"					"extended_lycan_wolfsbane"
+
+		"Ability10"					"special_bonus_extended_lycan_1"
+		"Ability11"					"special_bonus_extended_lycan_2"
+		"Ability12"					"special_bonus_extended_lycan_3"
+		"Ability13"					"special_bonus_extended_lycan_4"
+		"Ability14"					"special_bonus_extended_lycan_5"
+		"Ability15"					"special_bonus_extended_lycan_6"
+		"Ability16"					"special_bonus_extended_lycan_7"
+		"Ability17"					"special_bonus_extended_lycan_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Magnus
+	//=================================================================================================================
+	"npc_extended_hero_magnataur"
+	{
+		"override_hero"				"npc_dota_hero_magnataur"
+
+		"Ability1"					"extended_magnataur_shockwave"
+		"Ability2"					"extended_magnataur_empower"
+		"Ability3"					"extended_magnataur_skewer"
+		"Ability4"					"extended_magnataur_reverse_polarity"
+
+		"Ability10"					"special_bonus_extended_magnataur_1"
+		"Ability11"					"special_bonus_extended_magnataur_2"
+		"Ability12"					"special_bonus_extended_magnataur_3"
+		"Ability13"					"special_bonus_extended_magnataur_4"
+		"Ability14"					"special_bonus_extended_magnataur_5"
+		"Ability15"					"special_bonus_extended_magnataur_6"
+		"Ability16"					"special_bonus_extended_magnataur_7"
+		"Ability17"					"special_bonus_extended_magnataur_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Medusa
+	//=================================================================================================================
+	"npc_extended_hero_medusa"
+	{
+		"override_hero"				"npc_dota_hero_medusa"
+
+		//"Ability1"					"medusa_split_shot"	
+		//"Ability2"					"medusa_mystic_snake"		
+		//"Ability3"					"medusa_mana_shield"
+		//"Ability4"					"medusa_stone_gaze"
+
+		"Ability10"					"special_bonus_intelligence_8"
+		"Ability11"					"special_bonus_attack_damage_20"
+		"Ability12"					"special_bonus_attack_speed_20"
+		"Ability13"					"special_bonus_evasion_15"
+		"Ability14"					"special_bonus_unique_medusa_2"
+		"Ability15"					"special_bonus_mp_400"
+		"Ability16"					"special_bonus_lifesteal_20"
+		"Ability17"					"special_bonus_unique_medusa"
+
+		"ProjectileModel"			"particles/units/heroes/hero_medusa/medusa_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Meepo
+	//=================================================================================================================
+	"npc_extended_hero_meepo"
+	{
+		"override_hero"				"npc_dota_hero_meepo"
+
+		//"Ability1"					"extended_meepo_earthbind"
+		//"Ability2"					"extended_meepo_poof"
+		//"Ability3"					"extended_meepo_geostrike"
+		//"Ability4"					"extended_meepo_divided_we_stand"
+
+		"Ability10"					"special_bonus_armor_4"
+		"Ability11"					"special_bonus_attack_damage_15"
+		"Ability12"					"special_bonus_lifesteal_15"
+		"Ability13"					"special_bonus_movement_speed_20"
+		"Ability14"					"special_bonus_evasion_15"
+		"Ability15"					"special_bonus_attack_speed_25"
+		"Ability16"					"special_bonus_hp_350"
+		"Ability17"					"special_bonus_unique_meepo"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Mirana
+	//=================================================================================================================
+    "npc_extended_hero_mirana"
+	{
+		"override_hero"				"npc_dota_hero_mirana"		
+
+		"Ability1"					"extended_mirana_starfall"
+		"Ability2"					"extended_mirana_arrow"
+		"Ability3"					"extended_mirana_leap"		
+		"Ability4"					"extended_mirana_moonlight_shadow"
+		
+		"Ability10"					"special_bonus_extended_mirana_1"
+		"Ability11"					"special_bonus_extended_mirana_2"
+		"Ability12"					"special_bonus_extended_mirana_3"
+		"Ability13"					"special_bonus_extended_mirana_4"
+		"Ability14"					"special_bonus_extended_mirana_5"
+		"Ability15"					"special_bonus_extended_mirana_6"
+		"Ability16"					"special_bonus_extended_mirana_7"
+		"Ability17"					"special_bonus_extended_mirana_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_mirana/mirana_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Morphling
+	//=================================================================================================================
+	"npc_extended_hero_morphling"
+	{
+		"override_hero"				"npc_dota_hero_morphling"
+
+		//"Ability1"					"extended_morphling_waveform"
+		//"Ability2"					"extended_morphling_adaptive_strike"
+		//"Ability3"					"extended_morphling_morph_agi"
+		//"Ability4"					"extended_morphling_morph_str"
+		//"Ability5"					"extended_morphling_hybrid"
+		//"Ability6"					"extended_morphling_replicate"
+		//"Ability7"					"extended_morphling_morph"
+		//"Ability8"					"extended_morphling_morph_replicate"
+
+		"Ability10"					"special_bonus_agility_13"
+		"Ability11"					"special_bonus_mp_150"
+		"Ability12"					"special_bonus_attack_speed_20"
+		"Ability13"					"special_bonus_cooldown_reduction_12"
+		"Ability14"					"special_bonus_movement_speed_25"
+		"Ability15"					"special_bonus_attack_damage_40"
+		"Ability16"					"special_bonus_unique_morphling_1"
+		"Ability17"					"special_bonus_unique_morphling_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_morphling/morphling_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Monkey King
+	//=================================================================================================================
+	"npc_extended_hero_monkey_king"
+	{
+		"override_hero"				"npc_dota_hero_monkey_king"
+
+		//"Ability1"					"extended_monkey_king_boundless_strike"
+		//"Ability2"					"extended_monkey_king_tree_dance"
+		//"Ability3"					"extended_monkey_king_primal_spring"
+		//"Ability4"					"extended_monkey_king_primal_spring_early"
+		//"Ability5"					"extended_monkey_king_jingu_mastery"
+		//"Ability6"					"extended_monkey_king_mischief"
+		//"Ability7"					"extended_monkey_king_untransform"
+		//"Ability8"					"extended_monkey_king_wukongs_command"
+
+		"Ability10"					"special_bonus_attack_speed_20"
+		"Ability11"					"special_bonus_armor_4"
+		"Ability12"					"special_bonus_hp_175"
+		"Ability13"					"special_bonus_unique_monkey_king_2"
+		"Ability14"					"special_bonus_attack_damage_40"
+		"Ability15"					"special_bonus_strength_8"
+		"Ability16"					"special_bonus_magic_resistance_25"
+		"Ability17"					"special_bonus_unique_monkey_king"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Naga Siren
+	//=================================================================================================================
+	"npc_extended_hero_naga_siren"
+	{
+		"override_hero"				"npc_dota_hero_naga_siren"
+
+		//"Ability1"				"extended_naga_siren_mirror_image"
+		//"Ability2"				"extended_naga_siren_ensnare"
+		//"Ability3"				"extended_naga_siren_rip_tide"
+		//"Ability4"				"extended_naga_siren_song_of_the_siren"
+		//"Ability5"				"extended_naga_siren_song_of_the_siren_cancel"
+
+		"Ability10"					"special_bonus_mp_150"
+		"Ability11"					"special_bonus_hp_175"
+		"Ability12"					"special_bonus_attack_speed_15"
+		"Ability13"					"special_bonus_unique_naga_siren_2"
+		"Ability14"					"special_bonus_agility_14"
+		"Ability15"					"special_bonus_strength_8"
+		"Ability16"					"special_bonus_movement_speed_30"
+		"Ability17"					"special_bonus_unique_naga_siren"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Nature's Prophet
+	//=================================================================================================================
+	"npc_extended_hero_furion"
+	{
+		"override_hero"				"npc_dota_hero_furion"
+
+		"AttackDamageMin"			"34"
+		"AttackDamageMax"			"38"
+		"AttackRate"				"1.3"
+
+		//"Ability1"				"extended_furion_sprout"
+		//"Ability2"				"extended_furion_teleportation"
+		//"Ability3"				"extended_furion_force_of_nature"
+		//"Ability4"				"extended_furion_wrath_of_nature"
+
+		"Ability10"					"special_bonus_attack_damage_20"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_intelligence_12"
+		"Ability13"					"special_bonus_unique_furion_2"
+		"Ability14"					"special_bonus_attack_speed_30"
+		"Ability15"					"special_bonus_armor_5"
+		"Ability16"					"special_bonus_unique_furion_3"
+		"Ability17"					"special_bonus_unique_furion"
+
+		"ProjectileModel"			"particles/units/heroes/hero_furion/furion_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Necrolyte
+	//=================================================================================================================
+	"npc_extended_hero_necrolyte"
+	{
+		"override_hero"				"npc_dota_hero_necrolyte"		
+		
+		"AbilityLayout"				"5"		
+
+		"Ability1"					"extended_necrolyte_death_pulse"
+		"Ability2"					"extended_necrolyte_ghost_shroud"
+		"Ability3"					"extended_necrolyte_heartstopper_aura"
+		"Ability4"					"extended_necrolyte_sadist"
+		"Ability5"					"extended_necrolyte_reapers_scythe"
+
+		"Ability10"					"special_bonus_extended_necrolyte_1"
+		"Ability11"					"special_bonus_extended_necrolyte_5"
+		"Ability12"					"special_bonus_extended_necrolyte_2"
+		"Ability13"					"special_bonus_extended_necrolyte_4"
+		"Ability14"					"special_bonus_extended_necrolyte_3"
+		"Ability15"					"special_bonus_extended_necrolyte_6"
+		"Ability16"					"special_bonus_extended_necrolyte_7"
+		"Ability17"					"special_bonus_extended_necrolyte_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_necrolyte/necrolyte_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Night Stalker
+	//=================================================================================================================
+	"npc_extended_hero_night_stalker"
+	{
+		"override_hero" 			"npc_dota_hero_night_stalker"    	
+
+		"VisionDaytimeRange"        "1800"
+		"VisionNighttimeRange"      "800"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_night_stalker_void"
+		"Ability2"					"extended_night_stalker_crippling_fear"
+		"Ability3"					"extended_night_stalker_hunter_in_the_night"
+		"Ability4"					"extended_night_stalker_stalker_in_the_night"		
+		"Ability5"					"extended_night_stalker_darkness"		
+
+		"Ability10"					"special_bonus_extended_night_stalker_1"
+		"Ability11"					"special_bonus_extended_night_stalker_2"
+		"Ability12"					"special_bonus_extended_night_stalker_3"
+		"Ability13"					"special_bonus_extended_night_stalker_4"
+		"Ability14"					"special_bonus_extended_night_stalker_5"
+		"Ability15"					"special_bonus_extended_night_stalker_6"
+		"Ability16"					"special_bonus_extended_night_stalker_7"
+		"Ability17"					"special_bonus_extended_night_stalker_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Nyx Assassin
+	//=================================================================================================================
+    "npc_extended_hero_nyx_assassin"
+	{
+		"override_hero"				"npc_dota_hero_nyx_assassin"
+
+		"Ability1"					"extended_nyx_assassin_impale"
+		"Ability2"					"extended_nyx_assassin_mana_burn"
+		"Ability3"					"extended_nyx_assassin_spiked_carapace"
+		"Ability4"					"nyx_assassin_burrow"
+		"Ability5"					"nyx_assassin_unburrow"
+		"Ability6"					"extended_nyx_assassin_vendetta"
+		
+		"Ability10"					"special_bonus_extended_nyx_assassin_1"
+		"Ability11"					"special_bonus_extended_nyx_assassin_2"
+		"Ability12"					"special_bonus_extended_nyx_assassin_3"
+		"Ability13"					"special_bonus_extended_nyx_assassin_4"
+		"Ability14"					"special_bonus_extended_nyx_assassin_5"
+		"Ability15"					"special_bonus_extended_nyx_assassin_6"
+		"Ability16"					"special_bonus_extended_nyx_assassin_7"
+		"Ability17"					"special_bonus_extended_nyx_assassin_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Ogre McGee
+	//=================================================================================================================
+	"npc_extended_hero_ogre_magi"
+	{
+		"override_hero"				"npc_dota_hero_ogre_magi"
+
+		"ArmorPhysical"				"9.0"
+
+		"AttributeBaseIntelligence"	"22"
+
+		//"Ability1"					"extended_ogre_magi_fireblast"
+		//"Ability2"					"extended_ogre_magi_ignite"
+		//"Ability3"					"extended_ogre_magi_bloodlust"
+		//"Ability4"					"extended_ogre_magi_unrefined_fireblast"
+		//"Ability5"					"extended_ogre_magi_multicast"
+
+		"Ability10"					"special_bonus_gold_income_20"
+		"Ability11"					"special_bonus_cast_range_100"
+		"Ability12"					"special_bonus_attack_damage_35"
+		"Ability13"					"special_bonus_magic_resistance_10"
+		"Ability14"					"special_bonus_hp_200"
+		"Ability15"					"special_bonus_movement_speed_25"
+		"Ability16"					"special_bonus_spell_amplify_10"
+		"Ability17"					"special_bonus_unique_ogre_magi"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Oracle
+	//=================================================================================================================
+	"npc_extended_hero_oracle"
+	{
+		"override_hero"				"npc_dota_hero_oracle"
+
+		//"Ability1"					"extended_oracle_fortunes_end"
+		//"Ability2"					"extended_oracle_fates_edict"
+		//"Ability3"					"extended_oracle_purifying_flames"
+		//"Ability4"					"extended_oracle_false_promise"
+
+		"Ability10"					"special_bonus_unique_oracle_2"
+		"Ability11"					"special_bonus_exp_boost_20"
+		"Ability12"					"special_bonus_hp_175"
+		"Ability13"					"special_bonus_gold_income_25"
+		"Ability14"					"special_bonus_movement_speed_25"
+		"Ability15"					"special_bonus_intelligence_15"
+		"Ability16"					"special_bonus_cast_range_150"
+		"Ability17"					"special_bonus_unique_oracle"
+
+		"ProjectileModel"			"particles/units/heroes/hero_oracle/oracle_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Outworld Devourer
+	//=================================================================================================================
+	"npc_extended_hero_obsidian_destroyer"
+	{
+		"override_hero"				"npc_dota_hero_obsidian_destroyer"		
+
+		"Ability1"					"extended_obsidian_destroyer_arcane_orb"
+		"Ability2"					"extended_obsidian_destroyer_astral_imprisonment"
+		"Ability3"					"extended_obsidian_destroyer_essence_aura"
+		"Ability4"					"extended_obsidian_destroyer_sanity_eclipse"
+
+		"Ability10"					"special_bonus_extended_obsidian_destroyer_1"
+		"Ability11"					"special_bonus_extended_obsidian_destroyer_2"
+		"Ability12"					"special_bonus_extended_obsidian_destroyer_3"
+		"Ability13"					"special_bonus_extended_obsidian_destroyer_4"
+		"Ability14"					"special_bonus_extended_obsidian_destroyer_5"
+		"Ability15"					"special_bonus_extended_obsidian_destroyer_6"
+		"Ability16"					"special_bonus_extended_obsidian_destroyer_7"
+		"Ability17"					"special_bonus_extended_obsidian_destroyer_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Omniknight
+	//=================================================================================================================
+	"npc_extended_hero_omniknight"
+	{
+		"override_hero"				"npc_dota_hero_omniknight"
+
+		"Ability1"					"extended_omniknight_purification"
+		"Ability2"					"extended_omniknight_repel"
+		"Ability3"					"extended_omniknight_hammer_of_virtue"
+		"Ability4"					"extended_omniknight_guardian_angel"
+
+		"Ability10"					"special_bonus_extended_omniknight_1"
+		"Ability11"					"special_bonus_extended_omniknight_2"
+		"Ability12"					"special_bonus_extended_omniknight_3"
+		"Ability13"					"special_bonus_extended_omniknight_4"
+		"Ability14"					"special_bonus_extended_omniknight_5"
+		"Ability15"					"special_bonus_extended_omniknight_8"
+		"Ability16"					"special_bonus_extended_omniknight_7"
+		"Ability17"					"special_bonus_extended_omniknight_6"
+
+		"ProjectileSpeed"			"900"
+	}
+
+
+	//=================================================================================================================
+	// HERO: Phantom Assassin
+	//=================================================================================================================
+	"npc_extended_hero_phantom_assassin"
+	{
+		"override_hero"				"npc_dota_hero_phantom_assassin"
+
+		"AttackRate"				"1.5"
+
+		"Ability1"					"extended_phantom_assassin_stifling_dagger"
+		"Ability2"					"extended_phantom_assassin_phantom_strike"
+		"Ability3"					"extended_phantom_assassin_blur"
+		"Ability4"					"extended_phantom_assassin_coup_de_grace"
+
+		"Ability10"					"special_bonus_extended_phantom_assassin_1"
+		"Ability11"					"special_bonus_extended_phantom_assassin_2"
+		"Ability12"					"special_bonus_extended_phantom_assassin_3"
+		"Ability13"					"special_bonus_extended_phantom_assassin_4"
+		"Ability14"					"special_bonus_extended_phantom_assassin_5"
+		"Ability15"					"special_bonus_extended_phantom_assassin_6"
+		"Ability16"					"special_bonus_extended_phantom_assassin_7"
+		"Ability17"					"special_bonus_extended_phantom_assassin_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Phantom Lancer
+	//=================================================================================================================
+	"npc_extended_hero_phantom_lancer"
+	{
+		"override_hero"				"npc_dota_hero_phantom_lancer"
+
+		"AttributeAgilityGain"		"3.5"
+
+		"AttackRange"				"225"
+
+		//"Ability1"					"extended_phantom_lancer_spirit_lance"
+		//"Ability2"					"extended_phantom_lancer_doppelwalk"
+		//"Ability3"					"extended_phantom_lancer_phantom_edge"
+		//"Ability4"					"extended_phantom_lancer_juxtapose"
+
+		"Ability10"					"special_bonus_hp_150"
+		"Ability11"					"special_bonus_cooldown_reduction_10"
+		"Ability12"					"special_bonus_all_stats_6"
+		"Ability13"					"special_bonus_attack_speed_20"
+		"Ability14"					"special_bonus_magic_resistance_15"
+		"Ability15"					"special_bonus_evasion_20"
+		"Ability16"					"special_bonus_strength_9"
+		"Ability17"					"special_bonus_unique_phantom_lancer"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Phoenix
+	//=================================================================================================================
+	"npc_extended_hero_phoenix"
+	{
+		"override_hero"				"npc_dota_hero_phoenix"
+
+		//"Ability1"					"extended_phoenix_icarus_dive"
+		//"Ability2"					"extended_phoenix_fire_spirits"
+		//"Ability3"					"extended_phoenix_sun_ray"
+		//"Ability4"					"extended_phoenix_sun_ray_toggle_move_empty"
+		//"Ability5"					"extended_phoenix_supernova"
+		//"Ability6"					"extended_phoenix_launch_fire_spirit"
+		//"Ability7"					"extended_phoenix_icarus_dive_stop"
+		//"Ability8"					"extended_phoenix_sun_ray_stop"
+		//"Ability9"					"extended_phoenix_sun_ray_toggle_move"
+
+		"Ability10"					"special_bonus_exp_boost_15"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_unique_phoenix_3"
+		"Ability13"					"special_bonus_gold_income_25"
+		"Ability14"					"special_bonus_armor_6"
+		"Ability15"					"special_bonus_spell_amplify_8"
+		"Ability16"					"special_bonus_unique_phoenix_1"
+		"Ability17"					"special_bonus_unique_phoenix_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_phoenix/phoenix_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Puck
+	//=================================================================================================================
+	"npc_extended_hero_puck"
+	{
+		"override_hero"				"npc_dota_hero_puck"
+
+		//"Ability1"				"extended_puck_illusory_orb"
+		//"Ability2"				"extended_puck_waning_rift"
+		//"Ability3"				"extended_puck_phase_shift"
+		//"Ability4"				"extended_puck_ethereal_jaunt"
+		//"Ability5"				"extended_puck_dream_coil"
+
+		"Ability10"					"special_bonus_intelligence_7"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_attack_damage_30"
+		"Ability13"					"special_bonus_movement_speed_20"
+		"Ability14"					"special_bonus_spell_amplify_6"
+		"Ability15"					"special_bonus_unique_puck_2"
+		"Ability16"					"special_bonus_gold_income_50"
+		"Ability17"					"special_bonus_unique_puck"
+
+		"ProjectileModel"			"particles/units/heroes/hero_puck/puck_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Pudge
+	//=================================================================================================================
+	"npc_extended_hero_pudge"
+	{
+		"override_hero"				"npc_dota_hero_pudge"				
+
+		"AbilityLayout"				"6"
+
+		"AttackRange"				"200"
+
+		"Ability1"					"extended_pudge_meat_hook"
+		"Ability2"					"extended_pudge_rot"
+		"Ability3"					"extended_pudge_flesh_heap"
+		"Ability4"					"extended_pudge_sharp_hook"
+		"Ability5"					"extended_pudge_light_hook"
+		"Ability6"					"extended_pudge_dismember"
+
+		"Ability10"					"special_bonus_strength_6"
+		"Ability11"					"special_bonus_mp_regen_2"
+		"Ability12"					"special_bonus_gold_income_25"
+		"Ability13"					"special_bonus_movement_speed_20"
+		"Ability14"					"special_bonus_armor_6"
+		"Ability15"					"special_bonus_respawn_reduction_35"
+		"Ability16"					"special_bonus_attack_speed_35"
+		"Ability17"					"special_bonus_strength_12"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Pugna
+	//=================================================================================================================
+	"npc_extended_hero_pugna"
+	{
+		"override_hero"				"npc_dota_hero_pugna"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_pugna_nether_blast"
+		"Ability2"					"extended_pugna_decrepify"
+		"Ability3"					"extended_pugna_nether_ward"
+		"Ability4"					"extended_pugna_life_drain_end"
+		"Ability5"					"extended_pugna_life_drain"
+		
+		"Ability10"					"special_bonus_extended_pugna_1"			
+		"Ability11"					"special_bonus_extended_pugna_2"			
+		"Ability12"					"special_bonus_extended_pugna_3"
+		"Ability13"					"special_bonus_extended_pugna_4"
+		"Ability14"					"special_bonus_extended_pugna_5"
+		"Ability15"					"special_bonus_extended_pugna_6"
+		"Ability16"					"special_bonus_extended_pugna_7"
+		"Ability17"					"special_bonus_extended_pugna_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_pugna/pugna_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Queen of Pain
+	//=================================================================================================================
+	"npc_extended_hero_queenofpain"
+	{
+		"override_hero"				"npc_dota_hero_queenofpain"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_queenofpain_shadow_strike"
+		"Ability2"					"extended_queenofpain_blink"
+		"Ability3"					"extended_queenofpain_scream_of_pain"
+		"Ability4"					"extended_queenofpain_delightful_torment"
+		"Ability5"					"extended_queenofpain_sonic_wave"
+
+		"Ability10"					"special_bonus_extended_queenofpain_1"
+		"Ability11"					"special_bonus_extended_queenofpain_2"
+		"Ability12"					"special_bonus_extended_queenofpain_3"
+		"Ability13"					"special_bonus_extended_queenofpain_4"
+		"Ability14"					"special_bonus_extended_queenofpain_5"
+		"Ability15"					"special_bonus_extended_queenofpain_6"
+		"Ability16"					"special_bonus_extended_queenofpain_7"
+		"Ability17"					"special_bonus_extended_queenofpain_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_queenofpain/queen_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Razor
+	//=================================================================================================================
+	"npc_extended_hero_razor"
+	{
+		"override_hero"				"npc_dota_hero_razor"
+
+		//"Ability1"					"extended_razor_plasma_field"
+		//"Ability2"					"extended_razor_static_link"
+		//"Ability3"					"extended_razor_unstable_current"
+		//"Ability4"					"extended_razor_eye_of_the_storm"
+
+		"Ability10"					"special_bonus_movement_speed_15"
+		"Ability11"					"special_bonus_agility_13"
+		"Ability12"					"special_bonus_unique_razor_2"
+		"Ability13"					"special_bonus_cast_range_100"
+		"Ability14"					"special_bonus_hp_200"
+		"Ability15"					"special_bonus_attack_speed_30"
+		"Ability16"					"special_bonus_attack_range_100"
+		"Ability17"					"special_bonus_unique_razor"
+
+		"ProjectileModel"			"particles/units/heroes/hero_razor/razor_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Riki
+	//=================================================================================================================
+	"npc_extended_hero_riki"
+	{
+		"override_hero"				"npc_dota_hero_riki"
+
+		"Ability1"					"extended_riki_smoke_screen"
+		"Ability2"					"extended_riki_blink_strike"
+		"Ability3"					"extended_riki_cloak_and_dagger"
+		"Ability4"					"extended_riki_tricks_of_the_trade"
+
+		"Ability10"					"special_bonus_extended_riki_1"
+		"Ability11"					"special_bonus_extended_riki_4"
+		"Ability12"					"special_bonus_extended_riki_3"
+		"Ability13"					"special_bonus_extended_riki_5"
+		"Ability14"					"special_bonus_extended_riki_2"
+		"Ability15"					"special_bonus_extended_riki_8"
+		"Ability16"					"special_bonus_extended_riki_7"
+		"Ability17"					"special_bonus_extended_riki_6"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Rubick
+	//=================================================================================================================
+	"npc_extended_hero_rubick"
+	{
+		"override_hero"				"npc_dota_hero_rubick"
+
+		"Ability1"					"extended_rubick_telekinesis"
+		"Ability2"					"rubick_hidden1"
+		//"Ability3"		"extended_rubick_fade_bolt"
+		//"Ability4"		"extended_rubick_null_field"
+		//"Ability5"		"extended_rubick_empty1"
+		//"Ability6"		"extended_rubick_empty2"
+		//"Ability7"		"extended_rubick_spell_steal"
+		//"Ability8"		"extended_rubick_hidden2"
+		//"Ability9"		"extended_rubick_hidden3"
+		//"Ability10"		"extended_rubick_hidden"
+
+		"Ability11"					"special_bonus_gold_income_20"
+		"Ability12"					"special_bonus_attack_damage_35"
+		"Ability13"					"special_bonus_hp_175"
+		"Ability14"					"special_bonus_intelligence_12"
+		"Ability15"					"special_bonus_cast_range_100"
+		"Ability16"					"special_bonus_spell_amplify_8"
+		"Ability17"					"special_bonus_cooldown_reduction_20"
+		"Ability18"					"special_bonus_spell_lifesteal_20"
+
+		"ProjectileModel"			"particles/units/heroes/hero_rubick/rubick_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Sand King
+	//=================================================================================================================
+	"npc_extended_hero_sand_king"
+	{
+		"override_hero"				"npc_dota_hero_sand_king"		
+
+		"Ability1"					"extended_sandking_burrowstrike"
+		"Ability2"					"extended_sandking_sand_storm"
+		"Ability3"					"extended_sandking_caustic_finale"		
+		"Ability4"					"extended_sandking_epicenter"
+
+		"Ability10"					"special_bonus_extended_sand_king_1"
+		"Ability11"					"special_bonus_extended_sand_king_2"
+		"Ability12"					"special_bonus_extended_sand_king_3"
+		"Ability13"					"special_bonus_extended_sand_king_4"
+		"Ability14"					"special_bonus_extended_sand_king_5"
+		"Ability15"					"special_bonus_extended_sand_king_6"
+		"Ability16"					"special_bonus_extended_sand_king_7"
+		"Ability17"					"special_bonus_extended_sand_king_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Shadow Demon
+	//=================================================================================================================
+	"npc_extended_hero_shadow_demon"
+	{
+		"override_hero"				"npc_dota_hero_shadow_demon"
+
+		//"Ability1"					"extended_shadow_demon_disruption"
+		//"Ability2"					"extended_shadow_demon_soul_catcher"
+		//"Ability3"					"extended_shadow_demon_shadow_poison"
+		//"Ability4"					"extended_shadow_demon_shadow_poison_release"
+		//"Ability5"					"extended_shadow_demon_demonic_purge"
+
+		"Ability10"					"special_bonus_strength_5"
+		"Ability11"					"special_bonus_movement_speed_15"
+		"Ability12"					"special_bonus_cast_range_75"
+		"Ability13"					"special_bonus_spell_amplify_6"
+		"Ability14"					"special_bonus_magic_resistance_15"
+		"Ability15"					"special_bonus_unique_shadow_demon_3"
+		"Ability16"					"special_bonus_unique_shadow_demon_1"
+		"Ability17"					"special_bonus_unique_shadow_demon_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_shadow_demon/shadow_demon_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Shadow Fiend
+	//=================================================================================================================
+	"npc_extended_hero_nevermore"
+	{
+		"override_hero"				"npc_dota_hero_nevermore"
+	
+		"Ability1"					"extended_nevermore_shadowraze_close"
+		"Ability2"					"extended_nevermore_shadowraze_medium"
+		"Ability3"					"extended_nevermore_shadowraze_far"
+		"Ability4"					"extended_nevermore_necromastery"
+		"Ability5"					"extended_nevermore_dark_lord"
+		"Ability6"					"extended_nevermore_requiem"		
+
+		"Ability10"					"special_bonus_extended_nevermore_1"
+		"Ability11"					"special_bonus_extended_nevermore_2"
+		"Ability12"					"special_bonus_extended_nevermore_3"
+		"Ability13"					"special_bonus_extended_nevermore_4"
+		"Ability14"					"special_bonus_extended_nevermore_5"
+		"Ability15"					"special_bonus_extended_nevermore_6"
+		"Ability16"					"special_bonus_extended_nevermore_7"
+		"Ability17"					"special_bonus_extended_nevermore_8"
+	
+		"ProjectileModel"			"particles/units/heroes/hero_nevermore/nevermore_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Shadow Shaman
+	//=================================================================================================================
+	"npc_extended_hero_shadow_shaman"
+	{
+		"override_hero"				"npc_dota_hero_shadow_shaman"
+
+		//"Ability1"					"extended_shadow_shaman_ether_shock"
+		//"Ability2"					"extended_shadow_shaman_voodoo"
+		//"Ability3"					"extended_shadow_shaman_shackles"
+		//"Ability4"					"extended_shadow_shaman_mass_serpent_ward"
+
+
+		"ProjectileModel"			"particles/units/heroes/hero_shadowshaman/shadowshaman_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Silencer
+	//=================================================================================================================
+	"npc_extended_hero_silencer"
+	{
+		"override_hero"				"npc_dota_hero_silencer"		
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_silencer_arcane_curse"
+		"Ability2"					"extended_silencer_glaives_of_wisdom"
+		"Ability3"					"extended_silencer_last_word"
+		"Ability4"					"extended_silencer_arcane_supremacy"
+		"Ability5"					"extended_silencer_global_silence"
+		
+		"Ability10"					"special_bonus_extended_silencer_1"
+		"Ability11"					"special_bonus_extended_silencer_2"
+		"Ability12"					"special_bonus_extended_silencer_3"
+		"Ability13"					"special_bonus_extended_silencer_4"
+		"Ability14"					"special_bonus_extended_silencer_5"
+		"Ability15"					"special_bonus_extended_silencer_6"
+		"Ability16"					"special_bonus_extended_silencer_7"
+		"Ability17"					"special_bonus_extended_silencer_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_silencer/silencer_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Skeleton King
+	//=================================================================================================================
+	"npc_extended_hero_skeleton_king"
+	{
+		"override_hero"				"npc_dota_hero_skeleton_king"
+		
+		"AbilityLayout"				"5"		
+
+		"Ability1"					"extended_wraith_king_wraithfire_blast"
+		"Ability2"					"extended_wraith_king_vampiric_aura"
+		"Ability3"					"extended_wraith_king_mortal_strike"
+		"Ability4"					"extended_wraith_king_kingdom_come"
+		"Ability5"					"extended_wraith_king_reincarnation"		
+
+		"Ability10"					"special_bonus_extended_skeleton_king_1"
+		"Ability11"					"special_bonus_extended_skeleton_king_2"
+		"Ability12"					"special_bonus_extended_skeleton_king_3"
+		"Ability13"					"special_bonus_extended_skeleton_king_4"
+		"Ability14"					"special_bonus_extended_skeleton_king_5"
+		"Ability15"					"special_bonus_extended_skeleton_king_6"
+		"Ability16"					"special_bonus_extended_skeleton_king_7"
+		"Ability17"					"special_bonus_extended_skeleton_king_8"
+		
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Skywrath Mage
+	//=================================================================================================================
+	"npc_extended_hero_skywrath_mage"
+	{
+		"override_hero"				"npc_dota_hero_skywrath_mage"
+
+		"Ability1"					"extended_skywrath_mage_arcane_bolt"
+		"Ability2"					"extended_skywrath_mage_concussive_shot"
+		"Ability3"					"extended_skywrath_mage_ancient_seal"
+		"Ability4"					"extended_skywrath_mage_mystic_flare"		
+
+		"Ability10"					"special_bonus_extended_skywrath_mage_1"
+		"Ability11"					"special_bonus_extended_skywrath_mage_2"
+		"Ability12"					"special_bonus_extended_skywrath_mage_3"
+		"Ability13"					"special_bonus_extended_skywrath_mage_4"
+		"Ability14"					"special_bonus_extended_skywrath_mage_5"
+		"Ability15"					"special_bonus_extended_skywrath_mage_6"
+		"Ability16"					"special_bonus_extended_skywrath_mage_7"
+		"Ability17"					"special_bonus_extended_skywrath_mage_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_skywrath_mage/skywrath_mage_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Slardar
+	//=================================================================================================================
+	"npc_extended_hero_slardar"
+	{
+		"override_hero"				"npc_dota_hero_slardar"		
+
+		"Ability1"					"extended_slardar_guardian_sprint"
+		"Ability2"					"extended_slardar_slithereen_crush"
+		"Ability3"					"extended_slardar_bash_of_the_deep"
+		"Ability4"					"extended_slardar_rain_cloud"
+		"Ability5"					"extended_slardar_corrosive_haze"
+		
+		"Ability10"					"special_bonus_extended_slardar_1"
+		"Ability11"					"special_bonus_extended_slardar_2"
+		"Ability12"					"special_bonus_extended_slardar_3"
+		"Ability13"					"special_bonus_extended_slardar_4"
+		"Ability14"					"special_bonus_extended_slardar_5"
+		"Ability15"					"special_bonus_extended_slardar_6"
+		"Ability16"					"special_bonus_extended_slardar_7"
+		"Ability17"					"special_bonus_extended_slardar_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Slark
+	//=================================================================================================================
+	"npc_extended_hero_slark"
+	{
+		"override_hero"				"npc_dota_hero_slark"
+
+		"AttackRate"				"1.6"
+
+		//"Ability1"					"extended_slark_dark_pact"
+		//"Ability2"					"extended_slark_pounce"
+		//"Ability3"					"extended_slark_essence_shift"
+		//"Ability4"					"extended_slark_shadow_dance"
+
+		"Ability10"					"special_bonus_lifesteal_10"
+		"Ability11"					"special_bonus_attack_damage_15"
+		"Ability12"					"special_bonus_agility_14"
+		"Ability13"					"special_bonus_strength_6"
+		"Ability14"					"special_bonus_hp_200"
+		"Ability15"					"special_bonus_attack_speed_30"
+		"Ability16"					"special_bonus_all_stats_12"
+		"Ability17"					"special_bonus_unique_slark"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Sniper
+	//=================================================================================================================
+	"npc_extended_hero_sniper"
+	{
+		"override_hero"				"npc_dota_hero_sniper"		
+
+		"Ability1"					"extended_sniper_shrapnel"
+		"Ability2"					"extended_sniper_headshot"
+		"Ability3"					"extended_sniper_take_aim"		
+		"Ability4"					"extended_sniper_assassinate"		
+
+		"Ability10"					"special_bonus_extended_sniper_1"
+		"Ability11"					"special_bonus_extended_sniper_2"
+		"Ability12"					"special_bonus_extended_sniper_3"
+		"Ability13"					"special_bonus_extended_sniper_4"
+		"Ability14"					"special_bonus_extended_sniper_5"
+		"Ability15"					"special_bonus_extended_sniper_6"
+		"Ability16"					"special_bonus_extended_sniper_7"
+		"Ability17"					"special_bonus_extended_sniper_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Spectre
+	//=================================================================================================================
+	"npc_extended_hero_spectre"
+	{
+		"override_hero"				"npc_dota_hero_spectre"
+
+		//"Ability1"				"extended_spectre_spectral_dagger"
+		//"Ability2"				"extended_spectre_desolate"
+		//"Ability3"				"extended_spectre_dispersion"
+		//"Ability4"				"extended_spectre_reality"
+		//"Ability5"				"extended_spectre_haunt"
+
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Spirit Breaker
+	//=================================================================================================================
+	"npc_extended_hero_spirit_breaker"
+	{
+		"override_hero"				"npc_dota_hero_spirit_breaker"
+
+		"ModelScale"				"0.89"
+
+		//"Ability1"					"extended_spirit_breaker_charge_of_darkness"
+		//"Ability2"					"extended_spirit_breaker_empowering_haste"
+		//"Ability3"					"extended_spirit_breaker_greater_bash"
+		//"Ability4"					"extended_spirit_breaker_nether_strike"
+
+		"Ability10"					"special_bonus_all_stats_5"
+		"Ability11"					"special_bonus_movement_speed_15"
+		"Ability12"					"special_bonus_attack_damage_30"
+		"Ability13"					"special_bonus_armor_5"
+		"Ability14"					"special_bonus_gold_income_30"
+		"Ability15"					"special_bonus_unique_spirit_breaker_3"
+		"Ability16"					"special_bonus_unique_spirit_breaker_1"
+		"Ability17"					"special_bonus_unique_spirit_breaker_2"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Storm Spirit
+	//=================================================================================================================
+	"npc_extended_hero_storm_spirit"
+	{
+		"override_hero"				"npc_dota_hero_storm_spirit"
+
+		//"Ability1"					"extended_storm_spirit_static_remnant"
+		//"Ability2"					"extended_storm_spirit_electric_vortex"
+		//"Ability3"					"extended_storm_spirit_overload"
+		//"Ability4"					"extended_storm_spirit_ball_lightning"
+
+		"Ability10"					"special_bonus_attack_damage_20"
+		"Ability11"					"special_bonus_mp_regen_1"
+		"Ability12"					"special_bonus_hp_175"
+		"Ability13"					"special_bonus_mp_regen_2"
+		"Ability14"					"special_bonus_attack_speed_25"
+		"Ability15"					"special_bonus_mp_regen_3"
+		"Ability16"					"special_bonus_unique_storm_spirit"
+		"Ability17"					"special_bonus_mp_regen_4"
+
+		"ProjectileModel"			"particles/units/heroes/hero_stormspirit/stormspirit_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Sven
+	//=================================================================================================================
+	"npc_extended_hero_sven"
+	{
+		"override_hero"				"npc_dota_hero_sven"		
+		
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_sven_storm_bolt"
+		"Ability2"					"extended_sven_great_cleave"
+		"Ability3"					"extended_sven_warcry"
+		"Ability4"					"extended_sven_colossal_slash"
+		"Ability5"					"extended_sven_gods_strength"
+
+		"Ability10"					"special_bonus_extended_sven_1"
+		"Ability11"					"special_bonus_extended_sven_2"
+		"Ability12"					"special_bonus_extended_sven_3"
+		"Ability13"					"special_bonus_extended_sven_4"
+		"Ability14"					"special_bonus_extended_sven_5"
+		"Ability15"					"special_bonus_extended_sven_6"
+		"Ability16"					"special_bonus_extended_sven_7"
+		"Ability17"					"special_bonus_extended_sven_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Techies
+	//=================================================================================================================
+	"npc_extended_hero_techies"
+	{
+		"override_hero"				"npc_dota_hero_techies"		
+
+		"Ability1"					"extended_techies_proximity_mine"
+		"Ability2"					"extended_techies_stasis_trap"
+		"Ability3"					"extended_techies_blast_off"
+		"Ability4"					"extended_techies_focused_detonate"
+		"Ability5"					"extended_techies_minefield_sign"
+		"Ability6"					"extended_techies_remote_mine"
+
+		"Ability10"					"special_bonus_extended_techies_1"
+		"Ability11"					"special_bonus_extended_techies_2"
+		"Ability12"					"special_bonus_extended_techies_3"
+		"Ability13"					"special_bonus_extended_techies_4"
+		"Ability14"					"special_bonus_extended_techies_5"
+		"Ability15"					"special_bonus_extended_techies_6"
+		"Ability16"					"special_bonus_extended_techies_7"
+		"Ability17"					"special_bonus_extended_techies_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_techies/techies_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Templar Assassin
+	//=================================================================================================================
+	"npc_extended_hero_templar_assassin"
+	{
+		"override_hero"			"npc_dota_hero_templar_assassin"
+
+		"AttackRange"			"200"
+
+		//"Ability1"				"extended_templar_assassin_refraction"
+		//"Ability2"				"extended_templar_assassin_meld"
+		//"Ability3"				"extended_templar_assassin_psi_blades"
+		//"Ability4"				"extended_templar_assassin_trap"
+		//"Ability5"				"extended_templar_assassin_psionic_trap"
+
+		"Ability10"				"special_bonus_attack_speed_15"
+		"Ability11"				"special_bonus_movement_speed_15"
+		"Ability12"				"special_bonus_all_stats_6"
+		"Ability13"				"special_bonus_evasion_15"
+		"Ability14"				"special_bonus_hp_200"
+		"Ability15"				"special_bonus_attack_damage_40"
+		"Ability16"				"special_bonus_unique_templar_assassin_2"
+		"Ability17"				"special_bonus_unique_templar_assassin"
+
+		"ProjectileModel"		"particles/units/heroes/hero_templar_assassin/templar_assassin_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Terrorblade
+	//=================================================================================================================
+	"npc_extended_hero_terrorblade"
+	{
+		"override_hero"				"npc_dota_hero_terrorblade"
+
+		"ArmorPhysical"				"9"
+
+		//"Ability1"					"extended_terrorblade_reflection"
+		//"Ability2"					"extended_terrorblade_conjure_image"
+		//"Ability3"					"extended_terrorblade_metamorphosis"
+		//"Ability4"					"extended_terrorblade_sunder"
+
+		"Ability10"					"special_bonus_hp_regen_5"
+		"Ability11"					"special_bonus_attack_speed_15"
+		"Ability12"					"special_bonus_attack_damage_30"
+		"Ability13"					"special_bonus_hp_175"
+		"Ability14"					"special_bonus_agility_15"
+		"Ability15"					"special_bonus_movement_speed_25"
+		"Ability16"					"special_bonus_all_stats_12"
+		"Ability17"					"special_bonus_unique_terrorblade"
+	}
+
+	//=================================================================================================================
+	// HERO: Tidehunter
+	//=================================================================================================================
+	"npc_extended_hero_tidehunter"
+	{
+		"override_hero"				"npc_dota_hero_tidehunter"
+
+		"ModelScale"				"0.96"
+
+		"AttributeBaseStrength"		"28"
+
+		"AttackRange"				"200"
+
+		//"Ability1"					"extended_tidehunter_gush"
+		//"Ability2"					"extended_tidehunter_kraken_shell"
+		//"Ability3"					"extended_tidehunter_anchor_smash"
+		//"Ability4"					"extended_tidehunter_ravage"
+
+		"Ability10"					"special_bonus_attack_damage_30"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_armor_5"
+		"Ability13"					"special_bonus_exp_boost_25"
+		"Ability14"					"special_bonus_mp_regen_4"
+		"Ability15"					"special_bonus_strength_7"
+		"Ability16"					"special_bonus_cooldown_reduction_20"
+		"Ability17"					"special_bonus_unique_tidehunter"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Tinker
+	//=================================================================================================================
+	"npc_extended_hero_tinker"
+	{
+		"override_hero"				"npc_dota_hero_tinker"
+		
+		"AbilityLayout"				"6"
+
+		"Ability1"					"extended_tinker_laser"
+		"Ability2"					"extended_tinker_heat_seeking_missile"
+		"Ability3"					"extended_tinker_march_of_the_machines"
+		"Ability4"					"extended_tinker_technomancy"
+		"Ability5"					"extended_tinker_rearm"
+
+		"Ability10"					"special_bonus_extended_tinker_1"
+		"Ability11"					"special_bonus_extended_tinker_2"
+		"Ability12"					"special_bonus_extended_tinker_3"
+		"Ability13"					"special_bonus_extended_tinker_4"
+		"Ability14"					"special_bonus_extended_tinker_5"
+		"Ability15"					"special_bonus_extended_tinker_6"
+		"Ability16"					"special_bonus_extended_tinker_7"
+		"Ability17"					"special_bonus_extended_tinker_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_tinker/tinker_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Timbersaw
+	//=================================================================================================================
+	"npc_extended_hero_shredder"
+	{
+		"override_hero"				"npc_dota_hero_shredder"
+
+		//"Ability1"					"extended_shredder_whirling_death"
+		//"Ability2"					"extended_shredder_timber_chain"
+		//"Ability3"					"extended_shredder_reactive_armor"
+		//"Ability4"					"extended_shredder_chakram_2"
+		//"Ability5"					"extended_shredder_return_chakram_2"
+		//"Ability6"					"extended_shredder_chakram"
+		//"Ability7"					"extended_shredder_return_chakram"
+
+		"Ability10"					"special_bonus_hp_150"
+		"Ability11"					"special_bonus_exp_boost_15"
+		"Ability12"					"special_bonus_hp_regen_6"
+		"Ability13"					"special_bonus_intelligence_10"
+		"Ability14"					"special_bonus_spell_amplify_8"
+		"Ability15"					"special_bonus_cast_range_125"
+		"Ability16"					"special_bonus_strength_9"
+		"Ability17"					"special_bonus_unique_timbersaw"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Tiny
+	//=================================================================================================================
+	"npc_extended_hero_tiny"
+	{
+		"override_hero"				"npc_dota_hero_tiny"		
+
+		"AbilityLayout"				"5"
+
+		"Ability1"			"extended_tiny_avalanche"
+		"Ability2"			"extended_tiny_toss"
+		"Ability3"			"extended_tiny_craggy_exterior"
+		"Ability4"			"extended_tiny_rolling_stone"
+		"Ability5"			"extended_tiny_grow"
+
+		"Ability10"			"special_bonus_extended_tiny_1"
+		"Ability11"			"special_bonus_extended_tiny_2"
+		"Ability12"			"special_bonus_extended_tiny_3"
+		"Ability13"			"special_bonus_extended_tiny_4"
+		"Ability14"			"special_bonus_extended_tiny_5"
+		"Ability15"			"special_bonus_extended_tiny_6"
+		"Ability16"			"special_bonus_extended_tiny_7"
+		"Ability17"			"special_bonus_extended_tiny_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Treant
+	//=================================================================================================================
+	"npc_extended_hero_treant"
+	{
+		"override_hero"				"npc_dota_hero_treant"
+
+		"ModelScale"				"0.92"
+
+		"AttackDamageMin"			"92"
+		"AttackDamageMax"			"100"
+
+		"AttackRange"				"200"
+
+		//"Ability1"					"extended_treant_natures_guise"
+		//"Ability2"					"extended_treant_leech_seed"
+		//"Ability3"					"extended_treant_living_armor"
+		//"Ability4"					"extended_treant_eyes_in_the_forest"
+		//"Ability5"					"extended_treant_overgrowth"
+
+		"Ability10"					"special_bonus_attack_speed_15"
+		"Ability11"					"special_bonus_mp_regen_2"
+		"Ability12"					"special_bonus_gold_income_25"
+		"Ability13"					"special_bonus_movement_speed_20"
+		"Ability14"					"special_bonus_unique_treant"
+		"Ability15"					"special_bonus_attack_damage_50"
+		"Ability16"					"special_bonus_unique_treant_2"
+		"Ability17"					"special_bonus_cooldown_reduction_20"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Troll Warlord
+	//=================================================================================================================
+	"npc_extended_hero_troll_warlord"
+	{
+		"override_hero"				"npc_dota_hero_troll_warlord"		
+
+		"Ability1"					"extended_troll_warlord_berserkers_rage"
+		"Ability2"					"extended_troll_warlord_whirling_axes_melee"
+		"Ability3"					"extended_troll_warlord_whirling_axes_ranged"
+		"Ability4"					"extended_troll_warlord_fervor"
+		"Ability5"					"extended_troll_warlord_battle_trance"
+
+		"Ability10"					"special_bonus_extended_troll_warlord_1"
+		"Ability11"					"special_bonus_extended_troll_warlord_2"
+		"Ability12"					"special_bonus_extended_troll_warlord_3"
+		"Ability13"					"special_bonus_extended_troll_warlord_4"
+		"Ability14"					"special_bonus_extended_troll_warlord_5"
+		"Ability15"					"special_bonus_extended_troll_warlord_6"
+		"Ability16"					"special_bonus_extended_troll_warlord_7"
+		"Ability17"					"special_bonus_extended_troll_warlord_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_troll_warlord/troll_warlord_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Tusk
+	//=================================================================================================================
+	"npc_extended_hero_tusk"
+	{
+		"override_hero"				"npc_dota_hero_tusk"
+
+		"ModelScale"				"0.96"
+
+		//"Ability1"					"extended_tusk_ice_shards"
+		//"Ability2"					"extended_tusk_snowball"
+		//"Ability3"					"extended_tusk_frozen_sigil"
+		//"Ability4"					"extended_tusk_launch_snowball"
+		//"Ability5"					"extended_tusk_walrus_kick"
+		//"Ability6"					"extended_tusk_walrus_punch"
+
+		"Ability10"					"special_bonus_exp_boost_20"
+		"Ability11"					"special_bonus_attack_damage_35"
+		"Ability12"					"special_bonus_unique_tusk_2"
+		"Ability13"					"special_bonus_gold_income_20"
+		"Ability14"					"special_bonus_armor_6"
+		"Ability15"					"special_bonus_magic_resistance_15"
+		"Ability16"					"special_bonus_hp_275"
+		"Ability17"					"special_bonus_unique_tusk"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Underlord
+	//=================================================================================================================
+	"npc_dota_hero_abyssal_underlord"
+	{
+		"override_hero"				"npc_dota_hero_abyssal_underlord"
+
+		"AttributeIntelligenceGain"	"3.0"
+
+		"AttackRange"				"225"
+
+		//"Ability1"					"extended_abyssal_underlord_firestorm"
+		//"Ability2"					"extended_abyssal_underlord_pit_of_malice"
+		//"Ability3"					"extended_abyssal_underlord_atrophy_aura"
+		//"Ability4"					"extended_abyssal_underlord_dark_rift"
+		//"Ability5"					"extended_abyssal_underlord_cancel_dark_rift"
+
+		"Ability10"					"special_bonus_armor_4"
+		"Ability11"					"special_bonus_mp_regen_2"
+		"Ability12"					"special_bonus_hp_175"
+		"Ability13"					"special_bonus_spell_amplify_6"
+		"Ability14"					"special_bonus_attack_speed_30"
+		"Ability15"					"special_bonus_cast_range_100"
+		"Ability16"					"special_bonus_hp_regen_25"
+		"Ability17"					"special_bonus_unique_underlord"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Undying
+	//=================================================================================================================
+	"npc_extended_hero_undying"
+	{
+		"override_hero"				"npc_dota_hero_undying"
+
+		"AttributeBaseAgility"		"20"
+
+		"AttributeAgilityGain"		"2.0"
+
+		//"Ability1"					"extended_undying_decay"
+		//"Ability2"					"extended_undying_soul_rip"
+		//"Ability3"					"extended_undying_tombstone"
+		//"Ability4"					"extended_undying_flesh_golem"
+
+		"Ability10"					"special_bonus_respawn_reduction_35"
+		"Ability11"					"special_bonus_gold_income_20"
+		"Ability12"					"special_bonus_exp_boost_25"
+		"Ability13"					"special_bonus_hp_175"
+		"Ability14"					"special_bonus_all_stats_7"
+		"Ability15"					"special_bonus_movement_speed_25"
+		"Ability16"					"special_bonus_armor_7"
+		"Ability17"					"special_bonus_unique_undying"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Ursa
+	//=================================================================================================================
+	"npc_extended_hero_ursa"
+	{
+		"override_hero"				"npc_dota_hero_ursa"
+
+		"AbilityLayout"				"5"		
+
+		"Ability1"					"extended_ursa_earthshock"
+		"Ability2"					"extended_ursa_overpower"
+		"Ability3"					"extended_ursa_fury_swipes"
+		"Ability4"					"extended_ursa_territorial_hunter"
+		"Ability5"					"extended_ursa_enrage"
+		"Ability6"					""
+
+		"Ability10"					"special_bonus_extended_ursa_1"
+		"Ability11"					"special_bonus_extended_ursa_2"
+		"Ability12"					"special_bonus_extended_ursa_3"
+		"Ability13"					"special_bonus_extended_ursa_4"
+		"Ability14"					"special_bonus_extended_ursa_5"
+		"Ability15"					"special_bonus_extended_ursa_6"
+		"Ability16"					"special_bonus_extended_ursa_7"
+		"Ability17"					"special_bonus_extended_ursa_8"
+
+		"ProjectileSpeed"			"900"
+	}
+
+	//=================================================================================================================
+	// HERO: Viper
+	//=================================================================================================================
+	"npc_extended_hero_viper"
+	{
+		"override_hero"				"npc_dota_hero_viper"
+
+		//"Ability1"				"extended_viper_poison_attack"
+		//"Ability2"				"extended_viper_nethertoxin"
+		//"Ability3"				"extended_viper_corrosive_skin"
+		//"Ability4"				"extended_viper_viper_strike"
+
+		"Ability10"					"special_bonus_attack_damage_15"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_strength_6"
+		"Ability13"					"special_bonus_agility_14"
+		"Ability14"					"special_bonus_armor_6"
+		"Ability15"					"special_bonus_attack_range_75"
+		"Ability16"					"special_bonus_unique_viper_1"
+		"Ability17"					"special_bonus_unique_viper_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_viper/viper_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Vengeful Spirit
+	//=================================================================================================================
+	"npc_extended_hero_vengefulspirit"
+	{
+		"override_hero"				"npc_dota_hero_vengefulspirit"
+
+		"AttackDamageMin"			"28"
+		"AttackDamageMax"			"34"
+
+		"AttackRange"				"425"
+
+		"AbilityLayout"				"6"
+
+		"Ability1"					"extended_vengefulspirit_magic_missile"
+		"Ability2"					"extended_vengefulspirit_wave_of_terror"
+		"Ability3"					"extended_vengefulspirit_command_aura"
+		"Ability4"					"extended_vengefulspirit_rancor"
+		"Ability5"					"extended_vengefulspirit_swap_back"
+		"Ability6"					"extended_vengefulspirit_nether_swap"
+		//"Ability7"					"vengefulspirit_nether_swap"
+
+		"Ability10"					"special_bonus_extended_vengefulspirit_1"
+		"Ability11"					"special_bonus_extended_vengefulspirit_2"
+		"Ability12"					"special_bonus_extended_vengefulspirit_3"
+		"Ability13"					"special_bonus_extended_vengefulspirit_4"
+		"Ability14"					"special_bonus_extended_vengefulspirit_5"
+		"Ability15"					"special_bonus_extended_vengefulspirit_6"
+		"Ability16"					"special_bonus_extended_vengefulspirit_7"
+		"Ability17"					"special_bonus_extended_vengefulspirit_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_vengeful/vengeful_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Venomancer
+	//=================================================================================================================
+	"npc_extended_hero_venomancer"
+	{
+		"override_hero"				"npc_dota_hero_venomancer"
+
+		"AttackRange"				"500"
+
+		"AbilityLayout"				"5"
+
+		"Ability1"					"extended_venomancer_venomous_gale"
+		"Ability2"					"extended_venomancer_poison_sting"
+		"Ability3"					"extended_venomancer_plague_ward"
+		"Ability4"					"extended_venomancer_toxicity"
+		"Ability5"					"extended_venomancer_poison_nova"
+
+		"Ability10"					"special_bonus_extended_venomancer_1"
+		"Ability11"					"special_bonus_extended_venomancer_2"
+		"Ability12"					"special_bonus_extended_venomancer_3"
+		"Ability13"					"special_bonus_extended_venomancer_4"
+		"Ability14"					"special_bonus_extended_venomancer_5"
+		"Ability15"					"special_bonus_extended_venomancer_6"
+		"Ability16"					"special_bonus_extended_venomancer_7"
+		"Ability17"					"special_bonus_extended_venomancer_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_venomancer/venomancer_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Visage
+	//=================================================================================================================
+	"npc_extended_hero_visage"
+	{
+		"override_hero"				"npc_dota_hero_visage"
+
+		//"Ability1"					"extended_visage_grave_chill"
+		//"Ability2"					"extended_visage_soul_assumption"
+		//"Ability3"					"extended_visage_gravekeepers_cloak"
+		//"Ability4"					"extended_visage_summon_familiars"
+
+		"Ability10"					"special_bonus_gold_income_20"
+		"Ability11"					"special_bonus_exp_boost_15"
+		"Ability12"					"special_bonus_attack_damage_35"
+		"Ability13"					"special_bonus_cast_range_100"
+		"Ability14"					"special_bonus_hp_200"
+		"Ability15"					"special_bonus_unique_visage_2"
+		"Ability16"					"special_bonus_spell_amplify_10"
+		"Ability17"					"special_bonus_unique_visage_3"
+
+		"ProjectileModel"			"particles/units/heroes/hero_visage/visage_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Warlock
+	//=================================================================================================================
+	"npc_extended_hero_warlock"
+	{
+		"override_hero"				"npc_dota_hero_warlock"
+
+		"Ability1"					"extended_warlock_fatal_bonds"
+		"Ability2"					"extended_warlock_shadow_word"
+		"Ability3"					"extended_warlock_upheaval"
+		"Ability4"					"extended_warlock_rain_of_chaos"
+
+		"Ability10"					"special_bonus_extended_warlock_1"
+		"Ability11"					"special_bonus_extended_warlock_2"
+		"Ability12"					"special_bonus_extended_warlock_3"
+		"Ability13"					"special_bonus_extended_warlock_4"
+		"Ability14"					"special_bonus_extended_warlock_5"
+		"Ability15"					"special_bonus_extended_warlock_6"
+		"Ability16"					"special_bonus_extended_warlock_7"
+		"Ability17"					"special_bonus_extended_warlock_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_warlock/warlock_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Weaver
+	//=================================================================================================================
+	"npc_extended_hero_weaver"
+	{
+		"override_hero"				"npc_dota_hero_weaver"
+
+		"ProjectileSpeed"			"1500"
+
+		//"Ability1"					"extended_weaver_the_swarm"
+		//"Ability2"					"extended_weaver_shukuchi"
+		//"Ability3"					"extended_weaver_geminate_attack"
+		//"Ability4"					"extended_weaver_time_lapse"
+
+		"Ability10"					"special_bonus_strength_5"
+		"Ability11"					"special_bonus_unique_weaver_1"
+		"Ability12"					"special_bonus_attack_damage_30"
+		"Ability13"					"special_bonus_all_stats_6"
+		"Ability14"					"special_bonus_hp_200"
+		"Ability15"					"special_bonus_agility_14"
+		"Ability16"					"special_bonus_magic_resistance_20"
+		"Ability17"					"special_bonus_unique_weaver_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_weaver/weaver_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Windrunner
+	//=================================================================================================================
+	"npc_extended_hero_windrunner"
+	{
+		"override_hero"				"npc_dota_hero_windrunner"
+
+		"AttackAnimationPoint"		"0.0"
+
+		//"Ability1"				"extended_windrunner_shackleshot"
+		//"Ability2"				"extended_windrunner_powershot"
+		//"Ability3"				"extended_windrunner_windrun"
+		//"Ability4"				"extended_windrunner_focusfire"
+
+		"Ability10"					"special_bonus_unique_windranger_2"
+		"Ability11"					"special_bonus_mp_regen_3"
+		"Ability12"					"special_bonus_unique_windranger_3"
+		"Ability13"					"special_bonus_intelligence_13"
+		"Ability14"					"special_bonus_unique_windranger"
+		"Ability15"					"special_bonus_movement_speed_35"
+		"Ability16"					"special_bonus_attack_range_100"
+		"Ability17"					"special_bonus_cooldown_reduction_10"
+
+		"ProjectileModel"			"particles/units/heroes/hero_windrunner/windrunner_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Winter Wyvern
+	//=================================================================================================================
+	"npc_extended_hero_winter_wyvern"
+	{
+		"override_hero"				"npc_dota_hero_winter_wyvern"
+
+		//"Ability1"				"extended_winter_wyvern_arctic_burn"
+		//"Ability2"				"extended_winter_wyvern_splinter_blast"
+		//"Ability3"				"extended_winter_wyvern_cold_embrace"
+		//"Ability4"				"extended_winter_wyvern_winters_curse"
+
+		"Ability10"					"special_bonus_intelligence_10"
+		"Ability11"					"special_bonus_strength_5"
+		"Ability12"					"special_bonus_movement_speed_20"
+		"Ability13"					"special_bonus_unique_winter_wyvern_3"
+		"Ability14"					"special_bonus_gold_income_30"
+		"Ability15"					"special_bonus_unique_winter_wyvern_1"
+		"Ability16"					"special_bonus_attack_damage_50"
+		"Ability17"					"special_bonus_unique_winter_wyvern_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_winter_wyvern/winter_wyvern_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Wisp
+	//=================================================================================================================
+	"npc_extended_hero_wisp"
+	{
+		"override_hero"				"npc_dota_hero_wisp"
+
+	//	"AbilityLayout"				"6"
+	//	"Ability1"					"extended_wisp_tether"
+	//	"Ability2"					"extended_wisp_tether_break"							
+	//	"Ability3"					"extended_wisp_spirits"
+	//	"Ability4"					"extended_wisp_overcharge"
+	//	"Ability5"					"extended_wisp_empty1"
+	//	"Ability6"					"extended_wisp_empty2"
+	//	"Ability7"					"extended_wisp_relocate"
+	//	"Ability9"					"extended_wisp_spirits_in"
+	//	"Ability10"					"extended_wisp_spirits_out"
+
+		"Ability11"					"special_bonus_magic_resistance_8"
+		"Ability12"					"special_bonus_armor_4"
+		"Ability13"					"special_bonus_mp_regen_4"
+		"Ability14"					"special_bonus_strength_6"
+		"Ability15"					"special_bonus_hp_regen_10"
+		"Ability16"					"special_bonus_attack_range_125"
+		"Ability17"					"special_bonus_unique_wisp"
+		"Ability18"					"special_bonus_unique_wisp_2"
+
+		"ProjectileModel"			"particles/units/heroes/hero_wisp/wisp_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Witch Doctor
+	//=================================================================================================================
+	"npc_extended_hero_witch_doctor"
+	{
+		"override_hero"				"npc_dota_hero_witch_doctor"
+
+		"Ability1"					"extended_witch_doctor_paralyzing_cask"
+		"Ability2"					"extended_witch_doctor_voodoo_restoration"
+		"Ability3"					"extended_witch_doctor_maledict"
+		"Ability4"					"extended_witch_doctor_death_ward"
+
+		"Ability10"					"special_bonus_extended_witch_doctor_1"
+		"Ability11"					"special_bonus_extended_witch_doctor_2"
+		"Ability12"					"special_bonus_extended_witch_doctor_3"
+		"Ability13"					"special_bonus_extended_witch_doctor_4"
+		"Ability14"					"special_bonus_extended_witch_doctor_5"
+		"Ability15"					"special_bonus_extended_witch_doctor_6"
+		"Ability16"					"special_bonus_extended_witch_doctor_7"
+		"Ability17"					"special_bonus_extended_witch_doctor_8"
+
+		"ProjectileModel"			"particles/units/heroes/hero_witchdoctor/witchdoctor_base_attack.vpcf"
+	}
+
+	//=================================================================================================================
+	// HERO: Zeus
+	//=================================================================================================================
+	"npc_extended_hero_zuus"
+	{
+		"override_hero"				"npc_dota_hero_zuus"
+
+		"AttackRate"				"1.5"
+
+		"AttackAnimationPoint"		"0.5"
+
+		"AttackRange"				"500"
+
+		//"Ability1"					"extended_zuus_arc_lightning"
+		//"Ability2"					"extended_zuus_lightning_bolt"
+		//"Ability3"					"extended_zuus_static_field"
+		//"Ability4"					"extended_zuus_thundergods_wrath"
+
+		"Ability10"					"special_bonus_mp_regen_2"
+		"Ability11"					"special_bonus_hp_150"
+		"Ability12"					"special_bonus_armor_4"
+		"Ability13"					"special_bonus_magic_resistance_12"
+		"Ability14"					"special_bonus_unique_zeus_2"
+		"Ability15"					"special_bonus_unique_zeus_3"
+		"Ability16"					"special_bonus_cast_range_100"
+		"Ability17"					"special_bonus_unique_zeus"
+
+		"ProjectileModel"			"particles/units/heroes/hero_zuus/zuus_base_attack.vpcf"
+	}
+}

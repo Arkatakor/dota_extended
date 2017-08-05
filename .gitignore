@@ -1,0 +1,41 @@
+# Ignore everything
+#/*
+
+# Except the relevant folders
+#!content/
+#content/*
+#!content/dota_addons/
+#content/dota_addons/*
+#!content/dota_addons/dota_extended/
+
+#!game/
+#game/*
+#!game/dota_addons/
+#game/dota_addons/*
+#!game/dota_addons/dota_extended/
+
+# Cache crap that Valve autogenerates
+*.bin
+*.cfg
+*.soc
+*.tmp
+
+# Compiled formats
+*.vpcf_c
+*.vtex_c
+*.vsndevts_c
+*.vsnd_c
+*.vmat_c
+*.vjs_c
+*.vxml_c
+*.vcss_c
+
+# Map files
+#*.vpk
+
+#Github dump
+*.stackdump
+
+game/dota_addons/dota_extended/rich_presence_persistent_data\.txt
+
+game/dota_addons/dota_extended/server_log\.txt

@@ -1,0 +1,241 @@
+
+.EXTENDED_Talent_Window
+{
+    horizontal-align: left;
+    vertical-align: top;
+    margin-top: 55px;
+    width: fit-children;
+    height: 775px;
+    flow-children: down;
+    background-image: url("s2r://panorama/images/backgrounds/dashboard_background_png.vtex"); 
+
+    transform: translatex( -750px );
+    transition-property: transform;
+    transition-duration: 0.1s;
+    padding: 10px;
+}
+
+.EXTENDED_Talent_Window > Label
+{
+    font-family: "RadianceM";
+    color: #d9b284;
+    text-shadow: 0px 0px 8px #906127;
+    width : 100%;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.EXTENDED_Talent_Window > Label.header
+{
+    font-size : 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.EXTENDED_Talent_Window > Label.footer
+{
+    margin-top: 8px;
+    font-size : 18px;
+}
+
+.EXTENDED_Talent_Window.show_talent_window,
+.EXTENDED_Talent_Window.preview
+{
+    transform: translatey( 0px );
+}
+
+.EXTENDED_Talent_Row
+{
+    flow-children: right;
+    width: fit-children;
+    height : 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.EXTENDED_Talent_Row.six_choices
+{
+    height : 70px;
+}
+
+.EXTENDED_Talent_Level_Container
+{
+    height: 50px;
+    width: 50px;
+	border-radius: 30px;
+    vertical-align: middle;
+    border: 3px solid #906127;
+	border-radius: 30px;
+    background-color: #0f161e;
+}
+
+#EXTENDED_Talent_Level
+{
+    font-family: "RadianceM";
+    color: #d9b284;
+    text-shadow: 0px 0px 8px #906127;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#EXTENDED_Talent_Specials_Row
+{
+    margin-left: 10px;
+    flow-children: right;
+    text-align: center;
+}
+
+.EXTENDED_Talent_Choice
+{
+    height : 100%;
+}
+
+.EXTENDED_Talent_Row.two_choices .EXTENDED_Talent_Choice
+{
+    margin-left: 10px;
+    width: 230px;
+}
+
+.EXTENDED_Talent_Row.six_choices .EXTENDED_Talent_Choice,
+.EXTENDED_Talent_Row.eight_choices .EXTENDED_Talent_Choice
+{
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.EXTENDED_Talent_Choice_Text_Container
+{
+    background-color: #000000ee;
+    visibility: collapse;
+}
+
+.EXTENDED_Talent_Window.show_all_text .EXTENDED_Talent_Choice_Text_Container
+{
+    visibility: visible;
+}
+
+#EXTENDED_Talent_Choice_Text
+{
+    color : white;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    white-space: normal;
+    padding: 5px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+#EXTENDED_Talent_Specials_Row
+{
+    height: 100%;
+}
+
+.EXTENDED_Talent_Choice_Text_Container,
+.EXTENDED_Talent_Choice .EXTENDED_Talent_Choice_Glow,
+.EXTENDED_Talent_Choice .EXTENDED_Talent_Choice_Overlay,
+#EXTENDED_Talent_Choice_Image_Container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.EXTENDED_Talent_Choice .EXTENDED_Talent_Choice_Glow,
+.EXTENDED_Talent_Choice .EXTENDED_Talent_Choice_Overlay
+{
+    border-width: 2px;
+    border-style: solid;
+}
+
+.EXTENDED_Talent_Choice .EXTENDED_Talent_Choice_Glow
+{
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    animation-name: glowinganimation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border-color: #FFD700;
+    visibility: collapse;
+}
+
+.EXTENDED_Talent_Choice.selectable .EXTENDED_Talent_Choice_Glow
+{
+    visibility: visible;
+}
+
+.EXTENDED_Talent_Choice.selectable:hover .EXTENDED_Talent_Choice_Glow
+{
+    border-color: white;
+    visibility: visible;
+}
+
+.EXTENDED_Talent_Choice.upgraded .EXTENDED_Talent_Choice_Overlay
+{
+    border-color: yellow;
+}
+
+.EXTENDED_Talent_Choice.disabled .EXTENDED_Talent_Choice_Overlay
+{
+    background-color: #000000fa;
+}
+
+.EXTENDED_Talent_Choice .EXTENDED_Talent_Choice_Glow,
+.EXTENDED_Talent_Choice_Overlay,
+.EXTENDED_Talent_Choice_Text_Container,
+#EXTENDED_Talent_Choice_Image_Container
+{
+    border-radius: 10px;
+}
+
+#EXTENDED_Talent_Choice_Image_Container > Panel,
+#EXTENDED_Talent_Choice_Image_Container > DOTAAbilityImage,
+#EXTENDED_Talent_Choice_Image_Container > DOTAHeroImage
+{
+    align : center center;
+}
+
+#EXTENDED_Talent_Choice_Image_Container > Panel
+{
+    flow-children : right;
+}
+
+#EXTENDED_Talent_Choice_Image_Container > Panel .fix_cluster
+{
+    margin-left : -5px;
+    margin-right : -5px;
+    z-index: 1;
+}
+
+.EXTENDED_Talent_Choice #EXTENDED_Talent_Choice_Image_Container.white_wash
+{
+    opacity: 0.15;
+}
+
+/*
+    128x72 landscape default size
+    70px will be the height for EXTENDED_Talent_Choice_Image_Container
+    124px = 128 * (70/72)
+*/
+#EXTENDED_Talent_Choice_Image_Container DOTAHeroImage
+{
+    height : 70px;
+    padding-left: -30px;
+    padding-right: -30px;
+}
+
+.EXTENDED_Talent_Choice.disabled .EXTENDED_Talent_Choice_Text_Container
+{
+    visibility: collapse;
+}

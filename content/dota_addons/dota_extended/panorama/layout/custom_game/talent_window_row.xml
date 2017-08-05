@@ -1,0 +1,12 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/talent_anim.css" />
+ 		<include src="file://{resources}/styles/custom_game/talent_window.css" />
+    </styles>
+	<Panel class="EXTENDED_Talent_Row">
+        <Panel class="EXTENDED_Talent_Level_Container">
+            <Label id="EXTENDED_Talent_Level"/>
+        </Panel>
+        <Panel id="EXTENDED_Talent_Specials_Row"/>
+    </Panel>
+</root>
