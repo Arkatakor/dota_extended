@@ -341,7 +341,7 @@
 									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_meepo.png');" />                                
 								<Panel id="npc_dota_hero_spectre" class="ClassNormalOption" 
 									onactivate="SelectHero('npc_dota_hero_spectre')" 
-									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_spectre');" />									
+									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_spectre.png');" />									
                             </Panel>
                         </Panel>
 
