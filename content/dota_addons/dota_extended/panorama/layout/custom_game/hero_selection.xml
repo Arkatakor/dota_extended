@@ -218,6 +218,9 @@
                                 <Panel id="npc_dota_hero_skeleton_king" class="ClassExtendedOption" 
                                     onactivate="SelectHero('npc_dota_hero_skeleton_king')" 
                                     style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_skeleton_king.png');" />
+								<Panel id="npc_dota_hero_brewmaster" class="ClassExtendedOption" 
+									onactivate="SelectHero('npc_dota_hero_brewmaster')" 
+									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_brewmaster.png');" />
                             </Panel>
                         </Panel>
 
@@ -330,6 +333,15 @@
                                 <Panel id="npc_dota_hero_weaver" class="ClassNormalOption" 
                                     onactivate="SelectHero('npc_dota_hero_weaver')" 
                                     style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_weaver.png');" />
+								<Panel id="npc_dota_hero_lone_druid" class="ClassNormalOption" 
+									onactivate="SelectHero('npc_dota_hero_lone_druid')" 
+									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_lone_druid.png');" />                                
+								<Panel id="npc_dota_hero_meepo" class="ClassNormalOption" 
+									onactivate="SelectHero('npc_dota_hero_meepo')" 
+									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_meepo.png');" />                                
+								<Panel id="npc_dota_hero_spectre" class="ClassNormalOption" 
+									onactivate="SelectHero('npc_dota_hero_spectre')" 
+									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_spectre');" />									
                             </Panel>
                         </Panel>
 
@@ -460,6 +472,9 @@
                                 <Panel id="npc_dota_hero_zuus" class="ClassNormalOption" 
                                     onactivate="SelectHero('npc_dota_hero_zuus')" 
                                     style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_zuus.png');" />
+								<Panel id="npc_dota_hero_shadow_shaman" class="ClassNormalOption" 
+									onactivate="SelectHero('npc_dota_hero_shadow_shaman')" 
+									style="background-image: url('file://{images}/heroes/selection/npc_dota_hero_shadow_shaman.png');" />								
                             </Panel>
                         </Panel>
                     </Panel>
