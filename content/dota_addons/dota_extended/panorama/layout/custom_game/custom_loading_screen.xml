@@ -125,32 +125,6 @@
 
 			<Panel id="community_stuff_container" >
 
-				<Button id="show_community_panel_button" onactivate="ShowCommunityButton();" >
-					<Label id="show_community_panel_button_label" html="true" text="#extended_community_header" />
-				</Button>
-
-				<Panel id="CommunityPanel">
-				
-					<Label id="community_description" class="CommunityText" html="true" text="#extended_community_description" />
-					<Label id="community_post_description_01" class="CommunityText" html="true" text="#community_post_description_01"/>
-
-					<Button id="community_discord_header" class="CommunityImg" onactivate="DOTADisplayURL('http://tinyurl.com/extended-discord');" >
-						<Image src="file://{images}/custom_game/loading_screen/community_discord_header.png" />
-					</Button>
-					<Label id="community_discord_description" class="CommunityText" html="true" text="#community_discord_description"/>
-
-					<Button id="community_discord_header_ru" class="CommunityImg" onactivate="DOTADisplayURL('https://discord.gg/HcybJKt');" >
-						<Image src="file://{images}/custom_game/loading_screen/community_discord_header_ru.png" />
-					</Button>
-					<Label id="community_discord_description_ru" class="CommunityText" html="true" text="#community_discord_description_ru"/>
-
-					<Button id="community_chinese_blog_header" class="CommunityImg" onactivate="DOTADisplayURL('https://www.bilibiliduang.cn/extendedgroup');" >
-						<Image src="file://{images}/custom_game/loading_screen/community_chinese_blog.png" />
-					</Button>
-					<Label id="community_chinese_blog_description_02" class="CommunityText" html="true" text="欢迎加入EXTENDED中文QQ群，讨论、开黑、找队友，没有早退，NO LEAVERS！"/>
-
-				</Panel>
-
 				<Panel id="TitlePanel">
 					<Image id="loading_screen_title" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_screen_title.png" />
 				</Panel>
