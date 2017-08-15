@@ -264,7 +264,7 @@
 			"01"
 			{
 				"var_type"								"FIELD_INTEGER"
-				"base_damage_per_tier"					"15"
+				"base_damage_per_tier"					"155"
 			}
 			"02"
 			{
