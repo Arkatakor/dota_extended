@@ -16,7 +16,7 @@
 			<Panel id="game_options_container" >
 				<Panel id="GameOptionsPanel">
 
-					<Label id="game_options_game_mode_title" text="#extended_gamemode_name_all_pick" />
+					<Label id="game_options_game_mode_title" text="#`" />
 
 					<Panel id="QuickOptionsPanel" class="GameOptionsSubPanel" >
 
@@ -104,17 +104,17 @@
 
 					</Panel>
 
-                    <Panel class="GameOptionsLongSubPanel" onmouseover="UIShowTextTooltip( extended_gamemode_settings_hero_pick_rule_tooltip )" onmouseout="UIHideTextTooltip()">
+                    <!-- <Panel class="GameOptionsLongSubPanel" onmouseover="UIShowTextTooltip( extended_gamemode_settings_hero_pick_rule_tooltip )" onmouseout="UIHideTextTooltip()"> -->
 
-						<Label class="GameOptionsLabel" text="#extended_gamemode_settings_hero_pick_rule" />
+						<!-- <Label class="GameOptionsLabel" text="#extended_gamemode_settings_hero_pick_rule" /> -->
 
-						<DropDown id="HeroPickRuleDropdown" class="GameOptionsDropdown">
-							<Label text="#extended_gamemode_settings_hero_pick_all_unique" id="HeroPickRuleOption1"/>
-							<Label text="#extended_gamemode_settings_hero_pick_team_unique" id="HeroPickRuleOption2"/>
-                            <Label text="#extended_gamemode_settings_hero_pick_no_unique" id="HeroPickRuleOption3"/>
-						</DropDown>
+						<!-- <DropDown id="HeroPickRuleDropdown" class="GameOptionsDropdown"> -->
+							<!-- <Label text="#extended_gamemode_settings_hero_pick_all_unique" id="HeroPickRuleOption1"/> -->
+							<!-- <Label text="#extended_gamemode_settings_hero_pick_team_unique" id="HeroPickRuleOption2"/> -->
+                            <!-- <Label text="#extended_gamemode_settings_hero_pick_no_unique" id="HeroPickRuleOption3"/> -->
+						<!-- </DropDown> -->
 
-					</Panel>
+					<!-- </Panel> -->
 
 					<Button id="ConfirmOptionsBtn" onactivate="SetGameOptions();" onmouseover="UIShowTextTooltip( extended_gamemode_settings_lock_options_tooltip )" onmouseout="UIHideTextTooltip()">
 						<Label id="ConfirmOptionsBtnLabel" text="#extended_gamemode_settings_lock_options" />

@@ -316,11 +316,13 @@ function OnSetGameMode( eventSourceIndex, args )
 
     -- Hero pick rule
     -- Ignore HeroPickRuleOption1 because that is the default
-    if tostring(mode_info.hero_pick_rule) == "HeroPickRuleOption2" then
-        EXTENDED_HERO_PICK_RULE = 1
-    elseif tostring(mode_info.hero_pick_rule) == "HeroPickRuleOption3" then
-        EXTENDED_HERO_PICK_RULE = 2
-	end
+    -- if tostring(mode_info.hero_pick_rule) == "HeroPickRuleOption2" then
+        -- EXTENDED_HERO_PICK_RULE = 1
+    -- elseif tostring(mode_info.hero_pick_rule) == "HeroPickRuleOption3" then
+        -- EXTENDED_HERO_PICK_RULE = 2
+	-- end
+	--	Enforce mirror mode
+	EXTENDED_HERO_PICK_RULE = 1
 
     CustomNetTables:SetTableValue("game_options", "hero_pick_rule", {EXTENDED_HERO_PICK_RULE})
 
