@@ -270,7 +270,7 @@ function OnSetGameMode( eventSourceIndex, args )
 		elseif map_name == "extended_custom" then
 			HERO_RESPAWN_TIME_MULTIPLIER = 50
 		elseif map_name == "extended_10v10" then
-			HERO_RESPAWN_TIME_MULTIPLIER = 50
+			HERO_RESPAWN_TIME_MULTIPLIER = 75
 		end
 		CustomNetTables:SetTableValue("game_options", "respawn_multiplier", {100 - HERO_RESPAWN_TIME_MULTIPLIER})
 	end
