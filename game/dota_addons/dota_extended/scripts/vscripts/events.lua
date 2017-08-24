@@ -847,6 +847,8 @@ function GameMode:OnEntityKilled( keys )
 	-- Check if the dying unit was a player-controlled hero
 	if killed_unit:IsRealHero() and killed_unit:GetPlayerID() and PlayerResource:IsExtendedPlayer(killed_unit:GetPlayerID()) then
 
+		print("in buyback")
+		
 		-- Buyback parameters
 		local player_id = killed_unit:GetPlayerID()
 		local hero_level = killed_unit:GetLevel()
@@ -862,6 +864,11 @@ function GameMode:OnEntityKilled( keys )
 
 		-- Setup buyback cooldown
 		local buyback_cooldown = 0
+		
+		print("BUYBACK_COOLDOWN_ENABLED: "..BUYBACK_COOLDOWN_ENABLED)
+		print("game_time: "..game_time)
+		print("BUYBACK_COOLDOWN_START_POINT: "..BUYBACK_COOLDOWN_START_POINT)
+		
 		if BUYBACK_COOLDOWN_ENABLED and game_time > BUYBACK_COOLDOWN_START_POINT then
 			buyback_cooldown = math.min(BUYBACK_COOLDOWN_GROW_FACTOR * (game_time - BUYBACK_COOLDOWN_START_POINT), BUYBACK_COOLDOWN_MAXIMUM)
 		end
