@@ -18,6 +18,352 @@
 	}
 
 	//=================================================================================================================
+	// Recipe: Aghanim's Synth
+	//=================================================================================================================
+	"item_recipe_extended_ultimate_scepter_synth"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"2160"
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"custom/extended_recipe"
+		"Model"							"models/props_gameplay/recipe.mdl"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"8000"
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_extended_ultimate_scepter_synth"
+		"ItemRequirements"
+		{
+			"01"						"item_ultimate_scepter"
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: The Triumvirate
+	//=================================================================================================================
+	"item_recipe_extended_triumvirate"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"2135"
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"custom/extended_recipe"
+		"Model"							"models/props_gameplay/recipe.mdl"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_extended_triumvirate"
+		"ItemRequirements"
+		{
+			"01"						"item_sange;item_extended_azura;item_yasha"
+			"02"						"item_sange;item_extended_azura_yasha"
+			"03"						"item_sange_azura;item_yasha"
+			"04"						"item_sange_yasha;item_extended_azura"
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Trinity Rapier
+	//=================================================================================================================
+	"item_recipe_extended_rapier_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"2207"
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"custom/extended_recipe"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_extended_rapier_2"
+		"ItemRequirements"
+		{
+			"01"						"item_extended_rapier;item_extended_rapier;item_extended_rapier"
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Reverb Rapier
+	//=================================================================================================================
+	"item_recipe_extended_reverb_rapier"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"2156"
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName" 			"custom/extended_recipe"
+		"Model"							"models/props_gameplay/recipe.mdl"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					""
+
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_extended_reverb_rapier"
+		"ItemRequirements"
+		{
+			"01"						"item_extended_echo_sabre;item_claymore;item_claymore"
+		}
+	}
+
+	//=================================================================================================================
+	// Reverb Rapier
+	//=================================================================================================================
+	"item_extended_reverb_rapier"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"2157"
+		"BaseClass"						"item_datadriven"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"custom/extended_reverb_rapier"
+		"FightRecapLevel"				"1"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+		"AbilityManaCost"				"0"
+		"AbilitySharedCooldown"			"echo_sabre"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"5450"
+		"ItemShopTags"					"int;attack_speed;damage;regen_mana;damage;hard_to_tag"
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"reverb rapier"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"		"18"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"18"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"18"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"80"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"100"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bat_reduction"			"-90"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movement_slow"			"-100"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_speed_slow"		"-100"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slow_duration"			"0.7"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_hits"				"3"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"ranged_cooldown"		"6.0"
+			}
+		}
+
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items/item_echo_sabre.lua"
+				"Function"				"EchoSabreUnequip"
+
+				"modifier_multihit"		"modifier_item_extended_reverb_rapier_quadra_hit"
+				"modifier_slow_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_item_extended_reverb_rapier"
+			{
+				"Passive"				"1"
+				"IsHidden"				"1"
+				"IsPurgable"			"0"
+				"IsBuff"				"1"
+
+				"Attributes" 			"MODIFIER_ATTRIBUTE_MULTIPLE | MODIFIER_ATTRIBUTE_PERMANENT"
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS"		"%bonus_intellect"
+					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"		"%bonus_strength"
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus_attack_speed"
+					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"		"%bonus_damage"
+					"MODIFIER_PROPERTY_MANA_REGEN_PERCENTAGE"		"%bonus_mana_regen"
+				}
+			}
+
+			"modifier_item_extended_reverb_rapier_unique"
+			{
+				"Passive"				"1"
+				"IsHidden"				"1"
+				"IsPurgable"			"0"
+				"IsBuff"				"1"
+
+				"OnAttackStart"
+				{
+					"RunScript"
+					{
+						"ScriptFile"		"items/item_echo_sabre.lua"
+						"Function"			"ReverbRapierStart"
+
+						"modifier_double"	"modifier_item_extended_reverb_rapier_quadra_hit"
+						"modifier_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
+					}
+				}
+
+				"OnCreated"
+				{
+					"RunScript"
+					{
+						"ScriptFile"		"internal/util.lua"
+						"Function"			"IllusionPassiveRemover"
+
+						"modifier"			"modifier_item_extended_reverb_rapier_unique"
+					}
+				}
+			}
+
+			"modifier_item_extended_reverb_rapier_quadra_hit"
+			{
+				"Passive"				"0"
+				"IsHidden"				"1"
+				"IsPurgable"			"0"
+				"IsBuff"				"1"
+
+				"Duration"				"2.5"
+
+				"OnAttackStart"
+				{
+					"RunScript"
+					{
+						"ScriptFile"		"items/item_echo_sabre.lua"
+						"Function"			"EchoSabreStartHit"
+
+						"modifier_double"	"modifier_item_extended_reverb_rapier_quadra_hit"
+						"modifier_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
+					}
+				}
+
+				"OnDestroy"
+				{
+					"RunScript"
+					{
+						"ScriptFile"		"items/item_echo_sabre.lua"
+						"Function"			"EchoSabreEnd"
+					}
+				}
+			}
+
+			"modifier_item_extended_reverb_rapier_slow_applier"
+			{
+				"Passive"				"0"
+				"IsHidden"				"1"
+				"IsPurgable"			"0"
+				"IsBuff"				"1"
+
+				"Duration"				"1.5"
+
+				"OnAttackLanded"
+				{
+					"RunScript"
+					{
+						"ScriptFile"		"items/item_echo_sabre.lua"
+						"Function"			"EchoSabreFinishHit"
+
+						"modifier_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
+						"modifier_slow"		"modifier_item_extended_reverb_rapier_slow"
+					}
+				}
+			}
+
+			"modifier_item_extended_reverb_rapier_slow"
+			{
+				"Passive"				"0"
+				"IsHidden"				"0"
+				"IsPurgable"			"1"
+				"IsDebuff"				"1"
+
+				"TextureName"			"custom/extended_reverb_rapier"
+
+				"Duration"				"%slow_duration"
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%attack_speed_slow"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%movement_slow"
+				}
+			}
+		}
+	}
+
+
+
+
+	
+	
+	
+	
+	
+	//=================================================================================================================
 	// Magic Stick
 	//=================================================================================================================
 	"item_extended_magic_stick"
@@ -5478,36 +5824,6 @@
 	}
 
 	//=================================================================================================================
-	// Recipe: The Triumvirate
-	//=================================================================================================================
-	"item_recipe_extended_triumvirate"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"2135"
-		"BaseClass"						"item_datadriven"
-		"AbilityTextureName" 			"custom/extended_recipe"
-		"Model"							"models/props_gameplay/recipe.mdl"
-
-		// Item Info
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"0"
-		"ItemShopTags"					""
-
-		// Recipe
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemRecipe"					"1"
-		"ItemResult"					"item_extended_triumvirate"
-		"ItemRequirements"
-		{
-			"01"						"item_extended_sange;item_extended_azura;item_extended_yasha"
-			"02"						"item_extended_sange;item_extended_azura_yasha"
-			"03"						"item_extended_sange_azura;item_extended_yasha"
-			"04"						"item_extended_sange_yasha;item_extended_azura"
-		}
-	}
-
-	//=================================================================================================================
 	// Sange
 	//=================================================================================================================
 	"item_extended_sange"
@@ -9895,260 +10211,7 @@
 		}
 	}
 
-	//=================================================================================================================
-	// Recipe: Reverb Rapier
-	//=================================================================================================================
-	"item_recipe_extended_reverb_rapier"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"2156"
-		"BaseClass"						"item_datadriven"
-		"AbilityTextureName" 			"custom/extended_recipe"
-		"Model"							"models/props_gameplay/recipe.mdl"
 
-		// Item Info
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"0"
-		"ItemShopTags"					""
-
-		// Recipe
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemRecipe"					"1"
-		"ItemResult"					"item_extended_reverb_rapier"
-		"ItemRequirements"
-		{
-			"01"						"item_extended_echo_sabre;item_claymore;item_claymore"
-		}
-	}
-
-	//=================================================================================================================
-	// Reverb Rapier
-	//=================================================================================================================
-	"item_extended_reverb_rapier"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"2157"
-		"BaseClass"						"item_datadriven"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		"AbilityTextureName"			"custom/extended_reverb_rapier"
-		"FightRecapLevel"				"1"
-
-		// Stats
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"0"
-		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"4.0"
-		"AbilityManaCost"				"0"
-		"AbilitySharedCooldown"			"echo_sabre"
-
-		// Item Info
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"5450"
-		"ItemShopTags"					"int;attack_speed;damage;regen_mana;damage;hard_to_tag"
-		"ItemQuality"					"artifact"
-		"ItemAliases"					"reverb rapier"
-		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
-
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_intellect"		"18"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_strength"		"18"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_attack_speed"	"18"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"80"
-				"CalculateSpellDamageTooltip"	"0"
-			}
-			"05"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_mana_regen"		"100"
-			}
-			"06"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bat_reduction"			"-90"
-			}
-			"07"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"movement_slow"			"-100"
-			}
-			"08"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"attack_speed_slow"		"-100"
-			}
-			"09"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"slow_duration"			"0.7"
-			}
-			"10"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"max_hits"				"3"
-			}
-			"11"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"ranged_cooldown"		"6.0"
-			}
-		}
-
-		"OnUnequip"
-		{
-			"RunScript"
-			{
-				"ScriptFile"			"items/item_echo_sabre.lua"
-				"Function"				"EchoSabreUnequip"
-
-				"modifier_multihit"		"modifier_item_extended_reverb_rapier_quadra_hit"
-				"modifier_slow_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
-			}
-		}
-
-		"Modifiers"
-		{
-			"modifier_item_extended_reverb_rapier"
-			{
-				"Passive"				"1"
-				"IsHidden"				"1"
-				"IsPurgable"			"0"
-				"IsBuff"				"1"
-
-				"Attributes" 			"MODIFIER_ATTRIBUTE_MULTIPLE | MODIFIER_ATTRIBUTE_PERMANENT"
-
-				"Properties"
-				{
-					"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS"		"%bonus_intellect"
-					"MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"		"%bonus_strength"
-					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%bonus_attack_speed"
-					"MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"		"%bonus_damage"
-					"MODIFIER_PROPERTY_MANA_REGEN_PERCENTAGE"		"%bonus_mana_regen"
-				}
-			}
-
-			"modifier_item_extended_reverb_rapier_unique"
-			{
-				"Passive"				"1"
-				"IsHidden"				"1"
-				"IsPurgable"			"0"
-				"IsBuff"				"1"
-
-				"OnAttackStart"
-				{
-					"RunScript"
-					{
-						"ScriptFile"		"items/item_echo_sabre.lua"
-						"Function"			"ReverbRapierStart"
-
-						"modifier_double"	"modifier_item_extended_reverb_rapier_quadra_hit"
-						"modifier_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
-					}
-				}
-
-				"OnCreated"
-				{
-					"RunScript"
-					{
-						"ScriptFile"		"internal/util.lua"
-						"Function"			"IllusionPassiveRemover"
-
-						"modifier"			"modifier_item_extended_reverb_rapier_unique"
-					}
-				}
-			}
-
-			"modifier_item_extended_reverb_rapier_quadra_hit"
-			{
-				"Passive"				"0"
-				"IsHidden"				"1"
-				"IsPurgable"			"0"
-				"IsBuff"				"1"
-
-				"Duration"				"2.5"
-
-				"OnAttackStart"
-				{
-					"RunScript"
-					{
-						"ScriptFile"		"items/item_echo_sabre.lua"
-						"Function"			"EchoSabreStartHit"
-
-						"modifier_double"	"modifier_item_extended_reverb_rapier_quadra_hit"
-						"modifier_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
-					}
-				}
-
-				"OnDestroy"
-				{
-					"RunScript"
-					{
-						"ScriptFile"		"items/item_echo_sabre.lua"
-						"Function"			"EchoSabreEnd"
-					}
-				}
-			}
-
-			"modifier_item_extended_reverb_rapier_slow_applier"
-			{
-				"Passive"				"0"
-				"IsHidden"				"1"
-				"IsPurgable"			"0"
-				"IsBuff"				"1"
-
-				"Duration"				"1.5"
-
-				"OnAttackLanded"
-				{
-					"RunScript"
-					{
-						"ScriptFile"		"items/item_echo_sabre.lua"
-						"Function"			"EchoSabreFinishHit"
-
-						"modifier_applier"	"modifier_item_extended_reverb_rapier_slow_applier"
-						"modifier_slow"		"modifier_item_extended_reverb_rapier_slow"
-					}
-				}
-			}
-
-			"modifier_item_extended_reverb_rapier_slow"
-			{
-				"Passive"				"0"
-				"IsHidden"				"0"
-				"IsPurgable"			"1"
-				"IsDebuff"				"1"
-
-				"TextureName"			"custom/extended_reverb_rapier"
-
-				"Duration"				"%slow_duration"
-
-				"Properties"
-				{
-					"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"	"%attack_speed_slow"
-					"MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"	"%movement_slow"
-				}
-			}
-		}
-	}
 
 	//=================================================================================================================
 	// Recipe: Initiate's Robe
@@ -10304,32 +10367,6 @@
 		}
 	}
 
-	//=================================================================================================================
-	// Recipe: Aghanim's Synth
-	//=================================================================================================================
-	"item_recipe_extended_ultimate_scepter_synth"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"2160"
-		"BaseClass"						"item_datadriven"
-		"AbilityTextureName" 			"custom/extended_recipe"
-		"Model"							"models/props_gameplay/recipe.mdl"
-
-		// Item Info
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"8000"
-		"ItemShopTags"					""
-
-		// Recipe
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemRecipe"					"1"
-		"ItemResult"					"item_extended_ultimate_scepter_synth"
-		"ItemRequirements"
-		{
-			"01"						"item_ultimate_scepter"
-		}
-	}
 
 	//=================================================================================================================
 	// Aghanim's Synth
@@ -10732,31 +10769,6 @@
 		}
 	}
 
-	//=================================================================================================================
-	// Recipe: Trinity Rapier
-	//=================================================================================================================
-	"item_recipe_extended_rapier_2"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"2207"
-		"BaseClass"						"item_datadriven"
-		"AbilityTextureName" 			"custom/extended_recipe"
-
-		// Item Info
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"0"
-		"ItemShopTags"					""
-
-		// Recipe
-		//-------------------------------------------------------------------------------------------------------------
-		"ItemRecipe"					"1"
-		"ItemResult"					"item_extended_rapier_2"
-		"ItemRequirements"
-		{
-			"01"						"item_extended_rapier;item_extended_rapier;item_extended_rapier"
-		}
-	}
 
 	//=================================================================================================================
 	// Recipe: Arcane Rapier
