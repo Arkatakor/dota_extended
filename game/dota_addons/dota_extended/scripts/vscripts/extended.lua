@@ -1039,7 +1039,7 @@ function GameMode:OnAllPlayersLoaded()
 	GameRules:GetGameModeEntity():SetItemAddedToInventoryFilter( Dynamic_Wrap(GameMode, "ItemAddedFilter"), self )
 
 	-------------------------------------------------------------------------------------------------
-	-- EXTENDED: Fountain abilities setup
+	-- EXTENDED: Fountain, tower and barracks setup
 	-------------------------------------------------------------------------------------------------
 
 	-- Find all buildings on the map
@@ -1061,6 +1061,8 @@ function GameMode:OnAllPlayersLoaded()
 			local swipes_ability = building:FindAbilityByName("extended_fountain_grievous_wounds")
 			fountain_ability:SetLevel(1)
 			swipes_ability:SetLevel(1)
+		elseif string.find(building_name, "_rax_") then
+			building:SetHealth(3000)
 		elseif string.find(building_name, "tower") then
 			building:SetDayTimeVisionRange(1900)
 			building:SetNightTimeVisionRange(800)
