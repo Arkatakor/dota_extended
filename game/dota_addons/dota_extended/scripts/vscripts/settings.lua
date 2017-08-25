@@ -344,17 +344,17 @@ elseif GetMapName() == "extended_custom" then									-- Custom map defaults
 	MAX_LEVEL = 50
 elseif GetMapName() == "extended_10v10" then									-- 10v10 map defaults
 	END_GAME_ON_KILLS = false
-	CUSTOM_GOLD_BONUS = 60
-	CUSTOM_XP_BONUS = 60
+	CUSTOM_GOLD_BONUS = 35
+	CUSTOM_XP_BONUS = 35
 	CREEP_POWER_FACTOR = 1
-	TOWER_UPGRADE_MODE = true
+	TOWER_UPGRADE_MODE = false
 	TOWER_POWER_FACTOR = 1
-	HERO_RESPAWN_TIME_MULTIPLIER = 75
-	HERO_INITIAL_GOLD = 2000
-	HERO_REPICK_GOLD = 1600
-	HERO_RANDOM_GOLD = 2400
-	HERO_STARTING_LEVEL = 5
-	MAX_LEVEL = 40
+	HERO_RESPAWN_TIME_MULTIPLIER = 100
+	HERO_INITIAL_GOLD = 625
+	HERO_REPICK_GOLD = 525
+	HERO_RANDOM_GOLD = 825
+	HERO_STARTING_LEVEL = 1
+	MAX_LEVEL = 25
 elseif GetMapName() == "extended_arena" then									-- Arena map defaults
 	END_GAME_ON_KILLS = true
 	TOWER_ABILITY_MODE = false
