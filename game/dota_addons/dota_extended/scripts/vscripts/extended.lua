@@ -1062,6 +1062,7 @@ function GameMode:OnAllPlayersLoaded()
 			fountain_ability:SetLevel(1)
 			swipes_ability:SetLevel(1)
 		elseif string.find(building_name, "_rax_") then
+			building:MaxHealth(3000)
 			building:SetHealth(3000)
 		elseif string.find(building_name, "tower") then
 			building:SetDayTimeVisionRange(1900)
