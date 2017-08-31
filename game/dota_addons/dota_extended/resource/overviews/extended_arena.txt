@@ -1,0 +1,8 @@
+extended_arena
+{
+	material materials/overviews/extended_arena.vmat
+	pos_x -4096
+	pos_y 4096
+	scale 8.000
+}
+
