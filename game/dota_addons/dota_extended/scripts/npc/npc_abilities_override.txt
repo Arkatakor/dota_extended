@@ -3,6 +3,10 @@
 {
 	"Version"		"1"
 
+	// -----------------------------------------------------------
+	// - UNCOMMENT ANY ITEM YOU DON'T WANT TO APPEAR IN THE SHOP -
+	// -----------------------------------------------------------
+	
 	// Default item removal 
 	//"item_blink"			"REMOVE"
 	//"item_blades_of_attack"			"REMOVE"
